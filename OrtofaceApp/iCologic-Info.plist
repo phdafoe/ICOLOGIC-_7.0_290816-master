@@ -39,6 +39,7 @@
 	<string>iCologic necesita acceder a la libreria de fotos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>iCologic necesita acceder a la libreria de fotos</string>
+	<string>ICologic necesita acceder a la camara</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard</string>
 	<key>UIRequiredDeviceCapabilities</key>
