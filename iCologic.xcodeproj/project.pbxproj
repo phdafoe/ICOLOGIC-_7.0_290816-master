@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		09E0297A1E852E9900DFB431 /* Doc_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E029731E852E9900DFB431 /* Doc_1.jpg */; };
 		09E0297B1E852E9900DFB431 /* Doc_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E029741E852E9900DFB431 /* Doc_2.jpg */; };
-		09E0297C1E852E9900DFB431 /* Doc_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E029751E852E9900DFB431 /* Doc_3.jpg */; };
-		09E0297D1E852E9900DFB431 /* Doc_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E029761E852E9900DFB431 /* Doc_4.jpg */; };
-		09E0297E1E852E9900DFB431 /* Doc_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E029771E852E9900DFB431 /* Doc_5.jpg */; };
-		09E0297F1E852E9900DFB431 /* Doc_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E029781E852E9900DFB431 /* Doc_6.jpg */; };
-		09E029801E852E9900DFB431 /* Doc_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E029791E852E9900DFB431 /* Doc_7.jpg */; };
 		2803C43C174E0533007B7C74 /* libros.png in Resources */ = {isa = PBXBuildFile; fileRef = 2803C43B174E0533007B7C74 /* libros.png */; };
 		2803C43F174E128D007B7C74 /* SuperGaleriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803C43E174E128D007B7C74 /* SuperGaleriaViewController.m */; };
 		2803C447174E257D007B7C74 /* ortoface.png in Resources */ = {isa = PBXBuildFile; fileRef = 2803C446174E257D007B7C74 /* ortoface.png */; };
@@ -21,8 +16,6 @@
 		28BB864F1778727200864E07 /* NewsLetter1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28BB864C1778727200864E07 /* NewsLetter1.jpg */; };
 		28BB86501778727200864E07 /* NewsLetter2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28BB864D1778727200864E07 /* NewsLetter2.jpg */; };
 		28BB86511778727200864E07 /* NewsLetter3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28BB864E1778727200864E07 /* NewsLetter3.jpg */; };
-		634631461DFF56B9000B082F /* Doc_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6346313F1DFF56B9000B082F /* Doc_1.jpg */; };
-		634631471DFF56B9000B082F /* Doc_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634631401DFF56B9000B082F /* Doc_2.jpg */; };
 		634631481DFF56B9000B082F /* Doc_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634631411DFF56B9000B082F /* Doc_3.jpg */; };
 		634631491DFF56B9000B082F /* Doc_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634631421DFF56B9000B082F /* Doc_4.jpg */; };
 		6346314A1DFF56B9000B082F /* Doc_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634631431DFF56B9000B082F /* Doc_5.jpg */; };
@@ -333,26 +326,7 @@
 			children = (
 				63DC64881D79CBFD002CBAF2 /* Images.xcassets */,
 				686EF1B21646D7F40039FD75 /* T1Autograph */,
-				6858D87916345E6D00F44F3D /* Default-Portrait@2x~ipad.png */,
-				6858D87716345E6300F44F3D /* Default-Portrait~ipad.png */,
-				686EF1BD1646D99A0039FD75 /* bluebutton.png */,
-				686EF1BE1646D99A0039FD75 /* bluebutton@2x.png */,
-				6858D87516345C2E00F44F3D /* RETINA_ICON.png */,
-				6858D87216345C0900F44F3D /* NORMAL_ICON.png */,
-				63DC648A1D79CCBE002CBAF2 /* 29x29.png */,
-				63DC648B1D79CCBE002CBAF2 /* 29x29@2x.png */,
-				63DC648C1D79CCBE002CBAF2 /* 40x40.png */,
-				63DC648D1D79CCBE002CBAF2 /* 40x40@2x.png */,
-				63DC648E1D79CCBE002CBAF2 /* 76x76.png */,
-				63DC648F1D79CCBE002CBAF2 /* 76x76@2x.png */,
-				63DC64901D79CCBE002CBAF2 /* 835x835@2x.png */,
-				6346313F1DFF56B9000B082F /* Doc_1.jpg */,
-				634631401DFF56B9000B082F /* Doc_2.jpg */,
-				634631411DFF56B9000B082F /* Doc_3.jpg */,
-				634631421DFF56B9000B082F /* Doc_4.jpg */,
-				634631431DFF56B9000B082F /* Doc_5.jpg */,
-				634631441DFF56B9000B082F /* Doc_6.jpg */,
-				634631451DFF56B9000B082F /* Doc_7.jpg */,
+				B4170CB31ED9ED6200C64B01 /* IMAGES */,
 				6820F8CD162DE920000922F1 /* FXImageView */,
 				6820F8C9162DE91A000922F1 /* iCarousel */,
 				685D3366162DB2CA000E9FEE /* IMAGENES */,
@@ -554,6 +528,33 @@
 			name = ECSliding;
 			sourceTree = "<group>";
 		};
+		B4170CB31ED9ED6200C64B01 /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				6858D87916345E6D00F44F3D /* Default-Portrait@2x~ipad.png */,
+				6858D87716345E6300F44F3D /* Default-Portrait~ipad.png */,
+				686EF1BD1646D99A0039FD75 /* bluebutton.png */,
+				686EF1BE1646D99A0039FD75 /* bluebutton@2x.png */,
+				6858D87516345C2E00F44F3D /* RETINA_ICON.png */,
+				6858D87216345C0900F44F3D /* NORMAL_ICON.png */,
+				63DC648A1D79CCBE002CBAF2 /* 29x29.png */,
+				63DC648B1D79CCBE002CBAF2 /* 29x29@2x.png */,
+				63DC648C1D79CCBE002CBAF2 /* 40x40.png */,
+				63DC648D1D79CCBE002CBAF2 /* 40x40@2x.png */,
+				63DC648E1D79CCBE002CBAF2 /* 76x76.png */,
+				63DC648F1D79CCBE002CBAF2 /* 76x76@2x.png */,
+				63DC64901D79CCBE002CBAF2 /* 835x835@2x.png */,
+				6346313F1DFF56B9000B082F /* Doc_1.jpg */,
+				634631401DFF56B9000B082F /* Doc_2.jpg */,
+				634631411DFF56B9000B082F /* Doc_3.jpg */,
+				634631421DFF56B9000B082F /* Doc_4.jpg */,
+				634631431DFF56B9000B082F /* Doc_5.jpg */,
+				634631441DFF56B9000B082F /* Doc_6.jpg */,
+				634631451DFF56B9000B082F /* Doc_7.jpg */,
+			);
+			name = IMAGES;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -580,11 +581,12 @@
 		685D332B162DB2BC000E9FEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "andres ocampo";
 				TargetAttributes = {
 					685D3333162DB2BC000E9FEE = {
 						DevelopmentTeam = 2C7W4RF846;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -638,7 +640,6 @@
 				6820F8D7162DE938000922F1 /* background.png in Resources */,
 				6820F8D8162DE938000922F1 /* page.png in Resources */,
 				6820F8D9162DE938000922F1 /* placeholder.png in Resources */,
-				09E0297F1E852E9900DFB431 /* Doc_6.jpg in Resources */,
 				6820F8DB162DF415000922F1 /* Images.plist in Resources */,
 				6858D87316345C0900F44F3D /* NORMAL_ICON.png in Resources */,
 				6858D87616345C2E00F44F3D /* RETINA_ICON.png in Resources */,
@@ -661,7 +662,6 @@
 				687A9E85164BF3B900F2E65C /* boton_condiciones.png in Resources */,
 				687A9E87164BF66A00F2E65C /* boton_acuerdo.png in Resources */,
 				634631481DFF56B9000B082F /* Doc_3.jpg in Resources */,
-				634631471DFF56B9000B082F /* Doc_2.jpg in Resources */,
 				09E0297A1E852E9900DFB431 /* Doc_1.jpg in Resources */,
 				687D523516872A8A001E08B8 /* boton_cerrar.png in Resources */,
 				6823272E1733A12A0004077A /* slider1.png in Resources */,
@@ -679,13 +679,10 @@
 				682327421733DFDF0004077A /* filosofia3.jpg in Resources */,
 				63DC64971D79CCBE002CBAF2 /* 835x835@2x.png in Resources */,
 				682327431733DFDF0004077A /* filosofia4.jpg in Resources */,
-				09E0297E1E852E9900DFB431 /* Doc_5.jpg in Resources */,
 				682327441733DFDF0004077A /* filosofia5.jpg in Resources */,
 				682327451733DFDF0004077A /* filosofia6.jpg in Resources */,
 				682327461733DFDF0004077A /* filosofia7.jpg in Resources */,
-				09E0297D1E852E9900DFB431 /* Doc_4.jpg in Resources */,
 				682327471733DFDF0004077A /* filosofia8.jpg in Resources */,
-				09E0297C1E852E9900DFB431 /* Doc_3.jpg in Resources */,
 				682327491733E6100004077A /* apnea.png in Resources */,
 				6823274B1733E61B0004077A /* peques.png in Resources */,
 				6823274D1733E6230004077A /* adultos.png in Resources */,
@@ -694,11 +691,9 @@
 				68F9D157173D6843009C789C /* menu-icon.png in Resources */,
 				68F9D158173D6843009C789C /* menu-icon@2x.png in Resources */,
 				63DC64961D79CCBE002CBAF2 /* 76x76@2x.png in Resources */,
-				634631461DFF56B9000B082F /* Doc_1.jpg in Resources */,
 				2803C43C174E0533007B7C74 /* libros.png in Resources */,
 				2803C447174E257D007B7C74 /* ortoface.png in Resources */,
 				63DC64951D79CCBE002CBAF2 /* 76x76.png in Resources */,
-				09E029801E852E9900DFB431 /* Doc_7.jpg in Resources */,
 				28BB864F1778727200864E07 /* NewsLetter1.jpg in Resources */,
 				28BB86501778727200864E07 /* NewsLetter2.jpg in Resources */,
 				28BB86511778727200864E07 /* NewsLetter3.jpg in Resources */,
@@ -845,7 +840,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Andres Ocampo (S5TXXSHPBT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andres Ocampo (S5TXXSHPBT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
@@ -858,7 +854,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ocampo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = iCologic;
-				PROVISIONING_PROFILE = "018b9ccb-8b59-4bb9-bb46-a2e42f4e4ed7";
+				PROVISIONING_PROFILE = "53f2fe99-76c5-4720-8dbf-b0ccc98c9cf1";
 				PROVISIONING_PROFILE_SPECIFIER = ICOLOGICORTOFACEDEV;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -871,7 +867,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Andres Ocampo (S5TXXSHPBT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andres Ocampo (S5TXXSHPBT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
@@ -884,8 +881,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ocampo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = iCologic;
-				PROVISIONING_PROFILE = "be3b72e2-b2a9-4444-9236-1e3ec4b40c59";
-				PROVISIONING_PROFILE_SPECIFIER = ICOLOGICORTOFACEDEV;
+				PROVISIONING_PROFILE = "fce812c2-9b66-4c42-8a71-4e9efcd2db18";
+				PROVISIONING_PROFILE_SPECIFIER = ICOLOGICORTOFACEPRO;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
