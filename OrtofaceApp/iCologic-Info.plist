@@ -25,7 +25,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>12</string>
+	<string>13</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -36,10 +36,9 @@
 	<key>NSCameraUsageDescription</key>
 	<string>iCologic necesita usar la camara del dispositivo</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>iCologic necesita acceder a la libreria de fotos</string>
+	<string>iCologic necesita usar la camara del dispositivo</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>iCologic necesita acceder a la libreria de fotos</string>
-	<string>ICologic necesita acceder a la camara</string>
+	<string>iCologic necesita usar la camara del dispositivo</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard</string>
 	<key>UIRequiredDeviceCapabilities</key>
