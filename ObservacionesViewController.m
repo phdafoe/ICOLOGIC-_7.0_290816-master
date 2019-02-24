@@ -87,7 +87,7 @@
     
     [picker setSubject:@"Envío *.jpg para base de datos Nuevos pacientes"];
     
-    NSArray *toRecipient = @[@"beatriz@ortoface.com", @"comunicacion@ortoface.com"];
+    NSArray *toRecipient = @[@"registros@ortoface.com"];
     
     [picker setToRecipients:toRecipient];
     

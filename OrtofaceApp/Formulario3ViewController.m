@@ -805,7 +805,7 @@
     MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
     picker.mailComposeDelegate = self;
     [picker setSubject:@"Envío *.jpg para base de datos recordatorio de pacientes"];
-    NSArray *toRecipient = @[@"beatriz@ortoface.com", @"comunicacion@ortoface.com"];
+    NSArray *toRecipient = @[@"registros@ortoface.com"];
     [picker setToRecipients:toRecipient];
     NSData *imageData = UIImageJPEGRepresentation(image, 0.5);
     [picker addAttachmentData:imageData mimeType:@"../jpg" fileName:@"Screenshot.jpg"];

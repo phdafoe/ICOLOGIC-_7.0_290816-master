@@ -25,7 +25,7 @@
 
 @implementation SecondViewController
 
-@synthesize Fecha_Adulto, Nombre_Adulto, Apellido_Adulto, Direccion_Adulto, Numero_Adulto, Piso_Adulto, Localidad_Adulto, CodigoPostal_Adulto, FechaNacimiento_Adulto, Edad_Adulto, TelefonoParticular_Adulto, CorreoElectronico_Adulto, Movil_Adulto, QuienHaReferidoNuestraConsulta_Adulto, ProblemaPrincipalDeDientes_Adulto, PadeceEnfermedadNo_Adulto, PadeceEnfermedadSi_Adulto, PadeceEnfermedadCuales_Adulto, AlergiaMedicamentosComidasNo_Adulto, AlergiaMedicamentosComidasSi_Adulto, AlergiaMedicamentosComidasCuales_Adulto, MedicacionUtilizada_Adulto, TratamientoOrtodoncicoNo_Adulto, TratamientoOrtodoncicoSi_Adulto, TratamientoOrtodoncicoEdad_Adulto, OperadoDeAmigdalasVegetacionesNo_Adulto, OperadoDeAmigdalasVegetacionesSi_Adulto, OperadoDeAmigdalasVegetacionesEdad_Adulto, HipertensoNo_Adulto, HipertensoSi_Adulto, EmbarazadaNo_Adulto, EmbarazadaSi_Adulto, FumadorNo_Adulto, FumadorSi_Adulto, AlergicoNo_Adulto, AlergicoSi_Adulto, ProblemasCardiacosNo_Adulto, ProblemasCardiacosSi_Adulto, ProblemasCardiacosCuales_Adulto, HepatitisA_Adulto, HepatitisB_Adulto, HepatitisC_Adulto, AnemiaX_Adulto, DepresionX_Adulto, EpilepsiaX_Adulto, ProblemasdeRinonesX_Adulto, UlcerasX_Adulto, DiabetesX_Adulto, HIVX_Adulto, ProblemasTiroidesX_Adulto, ProblemasPulmonaresX_Adulto, CanceresTumoresX_Adulto, MareosX_Adulto, DesmayosX_Adulto, SangraEnciasX_Adulto, scrollView;
+@synthesize infoTratamientoPorEmail, infoTratamientoPorWathsApp, infoTratamientoPorCorreoPostal, Fecha_Adulto, Nombre_Adulto, Apellido_Adulto, Direccion_Adulto, Numero_Adulto, Piso_Adulto, Localidad_Adulto, CodigoPostal_Adulto, FechaNacimiento_Adulto, Edad_Adulto, TelefonoParticular_Adulto, CorreoElectronico_Adulto, Movil_Adulto, QuienHaReferidoNuestraConsulta_Adulto, ProblemaPrincipalDeDientes_Adulto, PadeceEnfermedadNo_Adulto, PadeceEnfermedadSi_Adulto, PadeceEnfermedadCuales_Adulto, AlergiaMedicamentosComidasNo_Adulto, AlergiaMedicamentosComidasSi_Adulto, AlergiaMedicamentosComidasCuales_Adulto, MedicacionUtilizada_Adulto, TratamientoOrtodoncicoNo_Adulto, TratamientoOrtodoncicoSi_Adulto, TratamientoOrtodoncicoEdad_Adulto, OperadoDeAmigdalasVegetacionesNo_Adulto, OperadoDeAmigdalasVegetacionesSi_Adulto, OperadoDeAmigdalasVegetacionesEdad_Adulto, HipertensoNo_Adulto, HipertensoSi_Adulto, EmbarazadaNo_Adulto, EmbarazadaSi_Adulto, FumadorNo_Adulto, FumadorSi_Adulto, AlergicoNo_Adulto, AlergicoSi_Adulto, ProblemasCardiacosNo_Adulto, ProblemasCardiacosSi_Adulto, ProblemasCardiacosCuales_Adulto, HepatitisA_Adulto, HepatitisB_Adulto, HepatitisC_Adulto, AnemiaX_Adulto, DepresionX_Adulto, EpilepsiaX_Adulto, ProblemasdeRinonesX_Adulto, UlcerasX_Adulto, DiabetesX_Adulto, HIVX_Adulto, ProblemasTiroidesX_Adulto, ProblemasPulmonaresX_Adulto, CanceresTumoresX_Adulto, MareosX_Adulto, DesmayosX_Adulto, SangraEnciasX_Adulto, scrollView;
 
 @synthesize overlayImageView, backgroundImageView, screenshotImage, screenPictureView, screenPictureLabel, screenPictureImageView;
 
@@ -51,6 +51,21 @@
 -(IBAction)enviar:(id)sender
 
 {
+    
+    NSString *enviaStringInfoTratamientoPorEmail = infoTratamientoPorEmail.text;
+    NSUserDefaults *defaultsInfoTratamientoPorEmail = [NSUserDefaults standardUserDefaults];
+    [defaultsInfoTratamientoPorEmail setObject:enviaStringInfoTratamientoPorEmail forKey:@"enviaStringInfoTratamientoPorEmail"];
+    [defaultsInfoTratamientoPorEmail synchronize];
+    
+    NSString *enviaStringInfoTratamientoPorWathsApp = infoTratamientoPorWathsApp.text;
+    NSUserDefaults *defaultsInfoTratamientoPorWathsApp = [NSUserDefaults standardUserDefaults];
+    [defaultsInfoTratamientoPorWathsApp setObject:enviaStringInfoTratamientoPorWathsApp forKey:@"enviaStringinfoTratamientoPorWathsApp"];
+    [defaultsInfoTratamientoPorWathsApp synchronize];
+    
+    NSString *enviaStringInfoTratamientoPorCorreoPostal = infoTratamientoPorCorreoPostal.text;
+    NSUserDefaults *defaultsInfoTratamientoPorCorreoPostal = [NSUserDefaults standardUserDefaults];
+    [defaultsInfoTratamientoPorCorreoPostal setObject:enviaStringInfoTratamientoPorCorreoPostal forKey:@"enviaStringInfoTratamientoPorCorreoPostal"];
+    [defaultsInfoTratamientoPorCorreoPostal synchronize];
     
     NSString *enviaStringObservaciones = Observaciones.text;
     NSUserDefaults *defaultsObservaciones = [NSUserDefaults standardUserDefaults];
@@ -341,6 +356,19 @@
 -(IBAction)cargarInformacion:(id)sender
 {
     
+    NSUserDefaults *defaultsInfoTratamientoPorEmail = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringInfoTratamientoPorEmail = [defaultsInfoTratamientoPorEmail objectForKey:@"enviaStringInfoTratamientoPorEmail"];
+    [infoTratamientoPorEmail setText:cargaStringInfoTratamientoPorEmail];
+    
+    NSUserDefaults *defaultsInfoTratamientoPorWathsApp = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringInfoTratamientoPorWathsApp = [defaultsInfoTratamientoPorWathsApp objectForKey:@"enviaStringinfoTratamientoPorWathsApp"];
+    [infoTratamientoPorWathsApp setText:cargaStringInfoTratamientoPorWathsApp];
+    
+    NSUserDefaults *defaultsInfoTratamientoPorCorreoPostal = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringInfoTratamientoPorCorreoPostal = [defaultsInfoTratamientoPorCorreoPostal objectForKey:@"enviaStringInfoTratamientoPorCorreoPostal"];
+    [infoTratamientoPorCorreoPostal setText:cargaStringInfoTratamientoPorCorreoPostal];
+    
+    
     NSUserDefaults *defaultsObervaciones = [NSUserDefaults standardUserDefaults];
     NSString *cargaStringObservaciones = [defaultsObervaciones objectForKey:@"enviaStringObservaciones"];
     [Observaciones setText:cargaStringObservaciones];
@@ -570,6 +598,17 @@
 
 -(IBAction)dismisseObservaciones:(id)sender
 {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)dissmissInfoTratamientoPorEMail:(id)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)dissmissInfoTratamientoPorWathsApp:(id)sender{
+    [sender resignFirstResponder];
+}
+- (IBAction)dissmissInfoTratamientoPorCorreoPostal:(id)sender{
     [sender resignFirstResponder];
 }
 
@@ -1103,7 +1142,7 @@
         
         [picker setSubject:@"Envío *.jpg para base de datos Nuevos pacientes"];
         
-        NSArray *toRecipient = @[@"beatriz@ortoface.com", @"comunicacion@ortoface.com"];
+        NSArray *toRecipient = @[@"registros@ortoface.com"];
         
         [picker setToRecipients:toRecipient];
         

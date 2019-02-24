@@ -107,11 +107,16 @@
     IBOutlet UITextField *DesmayosX_Adulto;
 
     IBOutlet UITextField *SangraEnciasX_Adulto;
+    
+    
 
     
  
 }
 
+@property (weak, nonatomic) IBOutlet UITextField *infoTratamientoPorEmail;
+@property (weak, nonatomic) IBOutlet UITextField *infoTratamientoPorWathsApp;
+@property (weak, nonatomic) IBOutlet UITextField *infoTratamientoPorCorreoPostal;
 
 
 @property (nonatomic, retain) UIImage *screenshotImage;
@@ -221,6 +226,9 @@
 
 
 // formulario 1
+- (IBAction)dissmissInfoTratamientoPorEMail:(id)sender;
+- (IBAction)dissmissInfoTratamientoPorWathsApp:(id)sender;
+- (IBAction)dissmissInfoTratamientoPorCorreoPostal:(id)sender;
 
 
 -(IBAction)dismisseFecha_Adulto:(id)sender;
