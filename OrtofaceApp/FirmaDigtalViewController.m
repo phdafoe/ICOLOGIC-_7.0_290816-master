@@ -24,7 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.view.backgroundColor = [UIColor colorWithRed:.255 green:.255 blue:.255 alpha:0];
+    self.view.backgroundColor = [UIColor whiteColor];
     CGFloat padding = self.view.frame.size.width / 15;
     UIView *FirmaView = [[UIView alloc] initWithFrame:CGRectMake(padding, 50, 280, 160)];
     FirmaView.layer.borderColor = [UIColor blackColor].CGColor;
@@ -115,6 +115,8 @@
     [self performSelector:@selector(displayScreenshotImage) withObject:nil afterDelay:0.10];
     self.screenPictureLabel.text = @"Imagen Completada";
 }
+
+
 
 
 -(UIImage *)uiKitScreenshot
@@ -223,5 +225,9 @@
    
 }
 
+
+- (IBAction)hideVC:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:Nil];
+}
 
 @end

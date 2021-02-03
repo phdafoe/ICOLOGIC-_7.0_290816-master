@@ -595,6 +595,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 685D3329162DB2BC000E9FEE;
@@ -858,6 +859,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Andres Ocampo (425789JU3X)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andres Ocampo (425789JU3X)";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
@@ -885,6 +887,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
