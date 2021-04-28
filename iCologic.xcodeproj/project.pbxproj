@@ -856,10 +856,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Andres Ocampo (425789JU3X)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andres Ocampo (425789JU3X)";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 26;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
@@ -873,7 +873,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ocampo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = iCologic;
 				PROVISIONING_PROFILE = "fc292438-da47-4ce1-9d99-bf659d02dcfa";
-				PROVISIONING_PROFILE_SPECIFIER = ICOLOGICORTOFACEDEV;
+				PROVISIONING_PROFILE_SPECIFIER = ICOLOGICORTOFACEPRO;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -884,10 +884,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 26;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
