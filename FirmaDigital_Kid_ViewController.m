@@ -152,14 +152,14 @@
     UIGraphicsEndImageContext();
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     
-    /*
+    
      MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
      
      picker.mailComposeDelegate = self;
      
      [picker setSubject:@"Envío *.jpg para base de datos Nuevos pacientes"];
      
-     NSArray *toRecipient = [NSArray arrayWithObject:@"phdafoe@gmail.com"];
+     NSArray *toRecipient = [NSArray arrayWithObject:@"registros@ortoface.com"];
      
      [picker setToRecipients:toRecipient];
      
@@ -171,7 +171,7 @@
      
      [picker setMessageBody:emailBody isHTML:YES];
      
-     [self presentViewController:picker animated:YES completion:nil];*/
+     [self presentViewController:picker animated:YES completion:nil];
     
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Gracias!"
@@ -188,30 +188,31 @@
 }
 
 
-/*
- - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
- {
- switch (result)
- {
- case MFMailComposeResultCancelled:
- NSLog(@"Mail cancelled: you cancelled the operation and no email message was queued.");
- break;
- case MFMailComposeResultSaved:
- NSLog(@"Mail saved: you saved the email message in the drafts folder.");
- break;
- case MFMailComposeResultSent:
- NSLog(@"Mail send: the email message is queued in the outbox. It is ready to send.");
- break;
- case MFMailComposeResultFailed:
- NSLog(@"Mail failed: the email message was not saved or queued, possibly due to an error.");
- break;
- default:
- NSLog(@"Mail not sent.");
- break;
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
+{
+    switch (result)
+    {
+        case MFMailComposeResultCancelled:
+            NSLog(@"Mail cancelled: you cancelled the operation and no email message was queued.");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"Mail saved: you saved the email message in the drafts folder.");
+            break;
+        case MFMailComposeResultSent:
+            NSLog(@"Mail send: the email message is queued in the outbox. It is ready to send.");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail failed: the email message was not saved or queued, possibly due to an error.");
+            break;
+        default:
+            NSLog(@"Mail not sent.");
+            break;
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
  }
- 
- [self dismissViewControllerAnimated:YES completion:nil];
- }*/
+
 
 -(void)displayScreenshotImage
 {

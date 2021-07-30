@@ -148,14 +148,14 @@
     UIGraphicsEndImageContext();
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     
-    /*
+    
     MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
     
     picker.mailComposeDelegate = self;
     
     [picker setSubject:@"Envío *.jpg para base de datos Nuevos pacientes"];
     
-    NSArray *toRecipient = [NSArray arrayWithObject:@"phdafoe@gmail.com"];
+    NSArray *toRecipient = [NSArray arrayWithObject:@"registros@ortoface.com"];
     
     [picker setToRecipients:toRecipient];
         
@@ -167,7 +167,7 @@
     
     [picker setMessageBody:emailBody isHTML:YES];
     
-    [self presentViewController:picker animated:YES completion:nil];*/
+    [self presentViewController:picker animated:YES completion:nil];
     
     
      UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Gracias!"
@@ -184,7 +184,7 @@
     }
 
 
-/*
+
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
 {
     switch (result)
@@ -207,7 +207,7 @@
     }
     
     [self dismissViewControllerAnimated:YES completion:nil];
-}*/
+}
 
 -(void)displayScreenshotImage
 {
