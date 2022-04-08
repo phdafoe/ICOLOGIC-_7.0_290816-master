@@ -221,7 +221,6 @@
 		685D334A162DB2BC000E9FEE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		685D334C162DB2BC000E9FEE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		685D334E162DB2BC000E9FEE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		685D3351162DB2BC000E9FEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		685D3353162DB2BC000E9FEE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		685D3354162DB2BC000E9FEE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		685D3356162DB2BC000E9FEE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = OrtofaceApp/first.png; sourceTree = "<group>"; };
@@ -277,6 +276,7 @@
 		68F9D152173D6843009C789C /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow@2x.png"; sourceTree = "<group>"; };
 		68F9D153173D6843009C789C /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
 		68F9D154173D6843009C789C /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		F62C31B2280048490009B595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -592,11 +592,11 @@
 			};
 			buildConfigurationList = 685D332E162DB2BC000E9FEE /* Build configuration list for PBXProject "iCologic" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 685D3329162DB2BC000E9FEE;
 			productRefGroup = 685D3335162DB2BC000E9FEE /* Products */;
@@ -746,7 +746,7 @@
 		685D3350162DB2BC000E9FEE /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				685D3351162DB2BC000E9FEE /* en */,
+				F62C31B2280048490009B595 /* Base */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
