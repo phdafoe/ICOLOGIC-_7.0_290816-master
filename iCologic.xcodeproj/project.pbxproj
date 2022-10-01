@@ -859,7 +859,7 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 33;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
@@ -870,6 +870,7 @@
 					"\"$(SRCROOT)/T1Autograph\"",
 					"$(PROJECT_DIR)/T1Autograph",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ocampo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = iCologic;
 				PROVISIONING_PROFILE = "fc292438-da47-4ce1-9d99-bf659d02dcfa";
@@ -887,7 +888,7 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 33;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
@@ -898,6 +899,7 @@
 					"\"$(SRCROOT)/T1Autograph\"",
 					"$(PROJECT_DIR)/T1Autograph",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ocampo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = iCologic;
 				PROVISIONING_PROFILE = "dc28ae94-ba04-40d6-8db7-0be6e3755e0c";
