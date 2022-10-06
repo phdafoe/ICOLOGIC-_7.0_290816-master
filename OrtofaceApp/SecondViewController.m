@@ -1154,8 +1154,14 @@
         NSString *emailBody = @"Texto complementario";
         
         [picker setMessageBody:emailBody isHTML:NO];
+    
+        dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+            dispatch_async(dispatch_get_main_queue(), ^(void){
+                [self presentViewController:picker animated:YES completion:nil];
+            });
+        });
         
-        [self presentViewController:picker animated:YES completion:nil];
+        
     
     
     return image;
@@ -1164,8 +1170,7 @@
 
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
 {
-    switch (result)
-    {
+    switch (result) {
         case MFMailComposeResultCancelled:
             NSLog(@"Mail cancelled: you cancelled the operation and no email message was queued.");
             break;

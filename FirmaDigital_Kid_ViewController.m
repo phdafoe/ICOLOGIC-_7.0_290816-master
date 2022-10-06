@@ -170,17 +170,23 @@
      NSString *emailBody = @"Texto complementario";
      
      [picker setMessageBody:emailBody isHTML:YES];
+    
+    dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+        dispatch_async(dispatch_get_main_queue(), ^(void){
+            [self presentViewController:picker animated:YES completion:nil];
+            
+            
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Gracias!"
+                                                            message:@"El Proceso de captura de Datos a terminado satisfactoriamente, pulse por favor en el botón Cerrar"
+                                                           delegate:nil
+                                                  cancelButtonTitle:nil
+                                                  otherButtonTitles:@"OK!", nil];
+            
+            [alert show];
+        });
+    });
      
-     [self presentViewController:picker animated:YES completion:nil];
-    
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Gracias!"
-                                                    message:@"El Proceso de captura de Datos a terminado satisfactoriamente, pulse por favor en el botón Cerrar"
-                                                   delegate:nil
-                                          cancelButtonTitle:nil
-                                          otherButtonTitles:@"OK!", nil];
-    
-    [alert show];
+     
     
     return image;
     
