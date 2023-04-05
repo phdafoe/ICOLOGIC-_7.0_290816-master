@@ -132,7 +132,7 @@
         UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0);
     else
         UIGraphicsBeginImageContext(imageSize);
-    CGContextRef context = UIGraphicsGetCurrentContext();
+        CGContextRef context = UIGraphicsGetCurrentContext();
     
     for (UIWindow *window in [[UIApplication sharedApplication] windows])
     {
@@ -153,24 +153,24 @@
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     
     
-     MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
-     
-     picker.mailComposeDelegate = self;
-     
-     [picker setSubject:@"Envío *.jpg para base de datos Nuevos pacientes"];
-     
-     NSArray *toRecipient = [NSArray arrayWithObject:@"registros@ortoface.com"];
-     
-     [picker setToRecipients:toRecipient];
-     
-     NSData *imageData = UIImageJPEGRepresentation(image, 1);
-     
-     [picker addAttachmentData:imageData mimeType:@"../jpg" fileName:@"Screenshot.jpg"];
-     
-     NSString *emailBody = @"Texto complementario";
-     
-     [picker setMessageBody:emailBody isHTML:YES];
-     
+    MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
+    
+    picker.mailComposeDelegate = self;
+    
+    [picker setSubject:@"Envío *.jpg para base de datos Nuevos pacientes"];
+    
+    NSArray *toRecipient = [NSArray arrayWithObject:@"registros@ortoface.com"];
+    
+    [picker setToRecipients:toRecipient];
+    
+    NSData *imageData = UIImageJPEGRepresentation(image, 1);
+    
+    [picker addAttachmentData:imageData mimeType:@"../jpg" fileName:@"Screenshot.jpg"];
+    
+    NSString *emailBody = @"Texto complementario";
+    
+    [picker setMessageBody:emailBody isHTML:YES];
+    
     
     dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
         dispatch_async(dispatch_get_main_queue(), ^(void){
