@@ -1160,9 +1160,7 @@
                 [self presentViewController:picker animated:YES completion:nil];
             });
         });
-        
-        
-    
+
     
     return image;
  

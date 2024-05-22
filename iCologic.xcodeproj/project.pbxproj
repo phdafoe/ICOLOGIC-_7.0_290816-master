@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,7 +29,6 @@
 		63DC64951D79CCBE002CBAF2 /* 76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DC648E1D79CCBE002CBAF2 /* 76x76.png */; };
 		63DC64961D79CCBE002CBAF2 /* 76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DC648F1D79CCBE002CBAF2 /* 76x76@2x.png */; };
 		63DC64971D79CCBE002CBAF2 /* 835x835@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DC64901D79CCBE002CBAF2 /* 835x835@2x.png */; };
-		63FD4D621A530019001495D6 /* libT1Autograph.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FD4D5E1A530019001495D6 /* libT1Autograph.a */; };
 		6804A3B71645CCBF004E68EE /* FirmaDigtalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804A3B61645CCBF004E68EE /* FirmaDigtalViewController.m */; };
 		6808AE36164E9E7700EE8CF8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6808AE35164E9E7700EE8CF8 /* CoreVideo.framework */; };
 		681FF2431739381200CE3A70 /* FirmaDigital_Kid_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FF2421739381200CE3A70 /* FirmaDigital_Kid_ViewController.m */; };
@@ -124,7 +123,23 @@
 		68F9D156173D6843009C789C /* back-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F9D152173D6843009C789C /* back-arrow@2x.png */; };
 		68F9D157173D6843009C789C /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F9D153173D6843009C789C /* menu-icon.png */; };
 		68F9D158173D6843009C789C /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F9D154173D6843009C789C /* menu-icon@2x.png */; };
+		78B727B42BFB5A85002E85A7 /* T1Autograph.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B727B32BFB5A85002E85A7 /* T1Autograph.xcframework */; };
+		78B727B52BFB5A85002E85A7 /* T1Autograph.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78B727B32BFB5A85002E85A7 /* T1Autograph.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78B727B62BFB5A85002E85A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				78B727B52BFB5A85002E85A7 /* T1Autograph.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		09E029731E852E9900DFB431 /* Doc_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doc_1.jpg; sourceTree = "<group>"; };
@@ -276,6 +291,7 @@
 		68F9D152173D6843009C789C /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow@2x.png"; sourceTree = "<group>"; };
 		68F9D153173D6843009C789C /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
 		68F9D154173D6843009C789C /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		78B727B32BFB5A85002E85A7 /* T1Autograph.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = T1Autograph.xcframework; path = OrtofaceApp/T1Autograph.xcframework; sourceTree = "<group>"; };
 		F62C31B2280048490009B595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -287,12 +303,12 @@
 				6838051E166D134C00ED579C /* libc++abi.dylib in Frameworks */,
 				6808AE36164E9E7700EE8CF8 /* CoreVideo.framework in Frameworks */,
 				687A9E7F164BE8BD00F2E65C /* AVFoundation.framework in Frameworks */,
+				78B727B42BFB5A85002E85A7 /* T1Autograph.xcframework in Frameworks */,
 				687A9E7C164BE89500F2E65C /* AssetsLibrary.framework in Frameworks */,
 				6853700916393E370018AE33 /* MessageUI.framework in Frameworks */,
 				6820F8C7162DE8FB000922F1 /* QuartzCore.framework in Frameworks */,
 				685D3375162DC78B000E9FEE /* iAd.framework in Frameworks */,
 				685D3339162DB2BC000E9FEE /* UIKit.framework in Frameworks */,
-				63FD4D621A530019001495D6 /* libT1Autograph.a in Frameworks */,
 				685D333B162DB2BC000E9FEE /* Foundation.framework in Frameworks */,
 				685D333D162DB2BC000E9FEE /* CoreGraphics.framework in Frameworks */,
 			);
@@ -347,6 +363,7 @@
 		685D3337162DB2BC000E9FEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78B727B32BFB5A85002E85A7 /* T1Autograph.xcframework */,
 				6838051D166D134C00ED579C /* libc++abi.dylib */,
 				6808AE35164E9E7700EE8CF8 /* CoreVideo.framework */,
 				687A9E7E164BE8BD00F2E65C /* AVFoundation.framework */,
@@ -565,6 +582,7 @@
 				685D3330162DB2BC000E9FEE /* Sources */,
 				685D3331162DB2BC000E9FEE /* Frameworks */,
 				685D3332162DB2BC000E9FEE /* Resources */,
+				78B727B62BFB5A85002E85A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -859,13 +877,13 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 47;
+				CURRENT_PROJECT_VERSION = 50;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
 				INFOPLIST_FILE = "OrtofaceApp/iCologic-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/T1Autograph\"",
@@ -890,12 +908,12 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 47;
+				CURRENT_PROJECT_VERSION = 50;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrtofaceApp/iCologic-Prefix.pch";
 				INFOPLIST_FILE = "OrtofaceApp/iCologic-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/T1Autograph\"",

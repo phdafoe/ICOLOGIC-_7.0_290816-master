@@ -1,0 +1,1260 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.0.0 (clang-1300.0.29.3)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+iPhoneOS15.0.sdk
+/Users/peter/Library/Developer/Xcode/DerivedData/T1Autograph-cuibrtvgyjfliyemvbsaqvqbyqbj/Build/Intermediates.noindex/ArchiveIntermediates/T1Autograph/IntermediateBuildFilesPath/T1Autograph.build/Release-iphoneos/T1Autograph.build/DerivedSources/T1Autograph_vers.c
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph
+-[T1DemoDrawingController initWithView:]
+-[T1DemoDrawingController drawCanvasToContext:withOffset:]
+-[T1DemoDrawingController drawingArrayWithOffset:]
+-[T1DemoDrawingController updateLayout]
+-[T1DemoDrawingController setColor:]
+-[T1DemoDrawingController setUseCalligraphicBrush:]
+-[T1DemoDrawingController drawTouchBeganWithPoint:]
+-[T1DemoDrawingController drawTouchMovedWithPoint:]
+-[T1DemoDrawingController drawTouchEndedWithPoint:]
+-[T1DemoDrawingController finalizeAndDrawCurrentStroke]
+-[T1DemoDrawingController drawTouchEndedWithTimestamp:]
+-[T1DemoDrawingController drawNextPoint:]
+-[T1DemoDrawingController calculateDiameterWithVelocity:andPressure:]
+-[T1DemoDrawingController updateCanvasWithDrawingArray:finalizeStroke:fullRedraw:]
+-[T1DemoDrawingController cancelDrawingStroke]
+-[T1DemoDrawingController undoDrawingStroke]
+-[T1DemoDrawingController redoDrawingStroke]
+-[T1DemoDrawingController redraw]
+-[T1DemoDrawingController orientationChange]
+-[T1DemoDrawingController resetCanvas]
+-[T1DemoDrawingController drawingView]
+-[T1DemoDrawingController setDrawingView:]
+-[T1DemoDrawingController myController]
+-[T1DemoDrawingController setMyController:]
+-[T1DemoDrawingController drawingArray]
+-[T1DemoDrawingController setDrawingArray:]
+-[T1DemoDrawingController drawingArrayForRedo]
+-[T1DemoDrawingController setDrawingArrayForRedo:]
+-[T1DemoDrawingController pointArray]
+-[T1DemoDrawingController setPointArray:]
+-[T1DemoDrawingController inkEnabled]
+-[T1DemoDrawingController setInkEnabled:]
+-[T1DemoDrawingController strokeWidthMax]
+-[T1DemoDrawingController setStrokeWidthMax:]
+-[T1DemoDrawingController velocityReduction]
+-[T1DemoDrawingController setVelocityReduction:]
+-[T1DemoDrawingController useCalligraphicBrush]
+-[T1DemoDrawingController metersPerPoint]
+-[T1DemoDrawingController setMetersPerPoint:]
+-[T1DemoDrawingController drawing]
+-[T1DemoDrawingController setDrawing:]
+-[T1DemoDrawingController canvasView]
+-[T1DemoDrawingController setCanvasView:]
+-[T1DemoDrawingController signaturePointID]
+-[T1DemoDrawingController setSignaturePointID:]
+-[T1DemoDrawingController velocityMax]
+-[T1DemoDrawingController setVelocityMax:]
+-[T1DemoDrawingController lastPoint]
+-[T1DemoDrawingController setLastPoint:]
+-[T1DemoDrawingController .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_IVAR_$_T1DemoDrawingController._useCalligraphicBrush
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_CLASSLIST_REFERENCES_$_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_IVAR_$_T1DemoDrawingController._drawingView
+_OBJC_IVAR_$_T1DemoDrawingController._myController
+_OBJC_IVAR_$_T1DemoDrawingController._drawingArray
+_OBJC_IVAR_$_T1DemoDrawingController._drawingArrayForRedo
+_OBJC_IVAR_$_T1DemoDrawingController._pointArray
+_OBJC_IVAR_$_T1DemoDrawingController._inkEnabled
+_OBJC_IVAR_$_T1DemoDrawingController._strokeWidthMax
+_OBJC_IVAR_$_T1DemoDrawingController._velocityReduction
+_OBJC_IVAR_$_T1DemoDrawingController._metersPerPoint
+_OBJC_IVAR_$_T1DemoDrawingController._drawing
+_OBJC_IVAR_$_T1DemoDrawingController._canvasView
+_OBJC_IVAR_$_T1DemoDrawingController._signaturePointID
+_OBJC_IVAR_$_T1DemoDrawingController._velocityMax
+_OBJC_IVAR_$_T1DemoDrawingController._lastPoint
+__OBJC_METACLASS_RO_$_T1DemoDrawingController
+__OBJC_$_INSTANCE_METHODS_T1DemoDrawingController
+__OBJC_$_INSTANCE_VARIABLES_T1DemoDrawingController
+__OBJC_$_PROP_LIST_T1DemoDrawingController
+__OBJC_CLASS_RO_$_T1DemoDrawingController
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1DemoDrawingController.m
+T1DemoDrawingController.m
+T1DemoDrawingController.h
+-[T1DrawingView initWithFrame:]
+-[T1DrawingView updateLayout]
+-[T1DrawingView initContext:]
+-[T1DrawingView drawSegmentInContext:withOrigin:destination:diameter:startingControlPoint:endingControlPoint:]
+-[T1DrawingView drawSegmentInContext:withOrigin:destination:startingDiameter:endingDiameter:startingControlPoint:endingControlPoint:]
+-[T1DrawingView drawToCacheWithFinalSegment:fullRedraw:]
+-[T1DrawingView drawToContext:withFinalSegment:fullRedraw:]
+-[T1DrawingView drawRect:]
+-[T1DrawingView point:isAboveThreshold:]
+-[T1DrawingView squaredDistanceBetween:and:]
+-[T1DrawingView distanceBetween:and:]
+-[T1DrawingView vector:isOppositeVector:]
+-[T1DrawingView angleBetweenVector1:vector2:]
+-[T1DrawingView angleBetweenVector1:vector2:isGreaterThan:]
+-[T1DrawingView vector:isCollinearToVector:]
+-[T1DrawingView vector:isCollinearToVector:withinRange:]
+-[T1DrawingView colorChanged:]
+-[T1DrawingView strokeWidthChanged:]
+-[T1DrawingView dealloc]
+-[T1DrawingView myStrokes]
+-[T1DrawingView setMyStrokes:]
+-[T1DrawingView cursorType]
+-[T1DrawingView setCursorType:]
+-[T1DrawingView cursorLocation]
+-[T1DrawingView setCursorLocation:]
+-[T1DrawingView isCursor]
+-[T1DrawingView setIsCursor:]
+-[T1DrawingView alwaysDraw]
+-[T1DrawingView setAlwaysDraw:]
+-[T1DrawingView strokeSmoothingAmount]
+-[T1DrawingView setStrokeSmoothingAmount:]
+-[T1DrawingView cornerThreshold]
+-[T1DrawingView setCornerThreshold:]
+-[T1DrawingView drawSmoothCurve]
+-[T1DrawingView setDrawSmoothCurve:]
+-[T1DrawingView useAMSmoothing]
+-[T1DrawingView setUseAMSmoothing:]
+-[T1DrawingView strokeBounds]
+-[T1DrawingView setStrokeBounds:]
+-[T1DrawingView strokeWidth]
+-[T1DrawingView setStrokeWidth:]
+-[T1DrawingView cacheContext]
+-[T1DrawingView setCacheContext:]
+-[T1DrawingView cacheComboContext]
+-[T1DrawingView setCacheComboContext:]
+-[T1DrawingView calligraphicBrushRatio]
+-[T1DrawingView setCalligraphicBrushRatio:]
+-[T1DrawingView calligraphicBrushAngle]
+-[T1DrawingView setCalligraphicBrushAngle:]
+-[T1DrawingView smoothingAccelerationLimit]
+-[T1DrawingView setSmoothingAccelerationLimit:]
+-[T1DrawingView constantDiameterMaximumDistance]
+-[T1DrawingView setConstantDiameterMaximumDistance:]
+-[T1DrawingView useCalligraphicBrush]
+-[T1DrawingView setUseCalligraphicBrush:]
+-[T1DrawingView showDebug]
+-[T1DrawingView setShowDebug:]
+-[T1DrawingView strokeColor]
+-[T1DrawingView setStrokeColor:]
+-[T1DrawingView .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_CLASSLIST_REFERENCES_$_.50
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_IVAR_$_T1DrawingView._myStrokes
+_OBJC_IVAR_$_T1DrawingView._cursorType
+_OBJC_IVAR_$_T1DrawingView._cursorLocation
+_OBJC_IVAR_$_T1DrawingView._isCursor
+_OBJC_IVAR_$_T1DrawingView._alwaysDraw
+_OBJC_IVAR_$_T1DrawingView._strokeSmoothingAmount
+_OBJC_IVAR_$_T1DrawingView._cornerThreshold
+_OBJC_IVAR_$_T1DrawingView._drawSmoothCurve
+_OBJC_IVAR_$_T1DrawingView._useAMSmoothing
+_OBJC_IVAR_$_T1DrawingView._strokeBounds
+_OBJC_IVAR_$_T1DrawingView._strokeWidth
+_OBJC_IVAR_$_T1DrawingView._cacheContext
+_OBJC_IVAR_$_T1DrawingView._cacheComboContext
+_OBJC_IVAR_$_T1DrawingView._calligraphicBrushRatio
+_OBJC_IVAR_$_T1DrawingView._calligraphicBrushAngle
+_OBJC_IVAR_$_T1DrawingView._smoothingAccelerationLimit
+_OBJC_IVAR_$_T1DrawingView._constantDiameterMaximumDistance
+_OBJC_IVAR_$_T1DrawingView._useCalligraphicBrush
+_OBJC_IVAR_$_T1DrawingView._showDebug
+_OBJC_IVAR_$_T1DrawingView._strokeColor
+__OBJC_METACLASS_RO_$_T1DrawingView
+__OBJC_$_INSTANCE_METHODS_T1DrawingView
+__OBJC_$_INSTANCE_VARIABLES_T1DrawingView
+__OBJC_$_PROP_LIST_T1DrawingView
+__OBJC_CLASS_RO_$_T1DrawingView
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1DrawingView.m
+T1DrawingView.m
+T1DrawingView.h
+CGPointMid
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[T1ComboContext initWithContext:]
+-[T1ComboContext setScaleCTMX:y:]
+-[T1ComboContext setTranslateCTMX:y:]
+-[T1ComboContext clearRect:]
+-[T1ComboContext setStrokeColorWithColor:]
+-[T1ComboContext setFillColorWithColor:]
+-[T1ComboContext setAlpha:]
+-[T1ComboContext setLineWidth:]
+-[T1ComboContext setLineJoin:]
+-[T1ComboContext setLineCap:]
+-[T1ComboContext st:]
+-[T1ComboContext beginPath]
+-[T1ComboContext moveToPoint:]
+-[T1ComboContext addLineToPoint:]
+-[T1ComboContext addCurveToPointCp1:cp2:point:]
+-[T1ComboContext addArc:radius:startAngle:endAngle:clockwise:]
+-[T1ComboContext showTextAtPoint:text:size:]
+-[T1ComboContext closePath]
+-[T1ComboContext fillPath]
+-[T1ComboContext strokePath]
+-[T1ComboContext drawPath:]
+-[T1ComboContext hexStringFromColor:]
+-[T1ComboContext r:g:b:a:fromColor:]
+-[T1ComboContext serializeSVG:]
+-[T1ComboContext context]
+-[T1ComboContext setContext:]
+-[T1ComboContext isSVG]
+-[T1ComboContext setIsSVG:]
+-[T1ComboContext pathString]
+-[T1ComboContext setPathString:]
+-[T1ComboContext pathArray]
+-[T1ComboContext setPathArray:]
+-[T1ComboContext strokeLineWidth]
+-[T1ComboContext setStrokeLineWidth:]
+-[T1ComboContext strokeLineJoin]
+-[T1ComboContext setStrokeLineJoin:]
+-[T1ComboContext strokeLineCap]
+-[T1ComboContext setStrokeLineCap:]
+-[T1ComboContext strokeColorString]
+-[T1ComboContext setStrokeColorString:]
+-[T1ComboContext fillColorString]
+-[T1ComboContext setFillColorString:]
+-[T1ComboContext opacity]
+-[T1ComboContext setOpacity:]
+-[T1ComboContext scale]
+-[T1ComboContext setScale:]
+-[T1ComboContext translate]
+-[T1ComboContext setTranslate:]
+-[T1ComboContext .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+__OBJC_METACLASS_RO_$_T1ComboContext
+__OBJC_$_INSTANCE_METHODS_T1ComboContext
+_OBJC_IVAR_$_T1ComboContext._isSVG
+_OBJC_IVAR_$_T1ComboContext._strokeLineWidth
+_OBJC_IVAR_$_T1ComboContext._strokeLineJoin
+_OBJC_IVAR_$_T1ComboContext._strokeLineCap
+_OBJC_IVAR_$_T1ComboContext._context
+_OBJC_IVAR_$_T1ComboContext._pathString
+_OBJC_IVAR_$_T1ComboContext._pathArray
+_OBJC_IVAR_$_T1ComboContext._strokeColorString
+_OBJC_IVAR_$_T1ComboContext._fillColorString
+_OBJC_IVAR_$_T1ComboContext._opacity
+_OBJC_IVAR_$_T1ComboContext._scale
+_OBJC_IVAR_$_T1ComboContext._translate
+__OBJC_$_INSTANCE_VARIABLES_T1ComboContext
+__OBJC_$_PROP_LIST_T1ComboContext
+__OBJC_CLASS_RO_$_T1ComboContext
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1ComboContext.m
+T1ComboContext.m
+T1ComboContext.h
++[T1AutographStyleKit initialize]
++[T1AutographStyleKit drawT1_logo]
++[T1AutographStyleKit drawAutograph_x]
++[T1AutographStyleKit drawT1_lockWithFillColor:startPoint:]
++[T1AutographStyleKit imageOfT1_logo]
++[T1AutographStyleKit imageOfAutograph_x]
+-[T1AutographStyleKit setT1_logoTargets:]
+-[T1AutographStyleKit setAutograph_xTargets:]
+-[T1AutographStyleKit t1_logoTargets]
+-[T1AutographStyleKit autograph_xTargets]
+-[T1AutographStyleKit .cxx_destruct]
+__imageOfT1_logo
+__imageOfAutograph_x
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_CLASSLIST_REFERENCES_$_.28
+__OBJC_$_CLASS_METHODS_T1AutographStyleKit
+__OBJC_METACLASS_RO_$_T1AutographStyleKit
+__OBJC_$_INSTANCE_METHODS_T1AutographStyleKit
+_OBJC_IVAR_$_T1AutographStyleKit._t1_logoTargets
+_OBJC_IVAR_$_T1AutographStyleKit._autograph_xTargets
+__OBJC_$_INSTANCE_VARIABLES_T1AutographStyleKit
+__OBJC_$_PROP_LIST_T1AutographStyleKit
+__OBJC_CLASS_RO_$_T1AutographStyleKit
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1AutographStyleKit.m
+T1AutographStyleKit.m
+T1AutographStyleKit.h
+-[T1TouchesObserverGestureRecognizer initWithTarget:action:]
+-[T1TouchesObserverGestureRecognizer reset]
+-[T1TouchesObserverGestureRecognizer touchesBegan:withEvent:]
+-[T1TouchesObserverGestureRecognizer touchesMoved:withEvent:]
+-[T1TouchesObserverGestureRecognizer touchesEnded:withEvent:]
+-[T1TouchesObserverGestureRecognizer touchesCancelled:withEvent:]
+-[T1TouchesObserverGestureRecognizer delegateController]
+-[T1TouchesObserverGestureRecognizer setDelegateController:]
+-[T1TouchesObserverGestureRecognizer .cxx_destruct]
+_OBJC_IVAR_$_T1TouchesObserverGestureRecognizer._delegateController
+__OBJC_METACLASS_RO_$_T1TouchesObserverGestureRecognizer
+__OBJC_$_INSTANCE_METHODS_T1TouchesObserverGestureRecognizer
+__OBJC_$_INSTANCE_VARIABLES_T1TouchesObserverGestureRecognizer
+__OBJC_$_PROP_LIST_T1TouchesObserverGestureRecognizer
+__OBJC_CLASS_RO_$_T1TouchesObserverGestureRecognizer
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1TouchesObserverGestureRecognizer.m
+T1TouchesObserverGestureRecognizer.m
+T1TouchesObserverGestureRecognizer.h
+-[T1AutographPopup loadView]
+-[T1AutographPopup cancelButton:]
+___33-[T1AutographPopup cancelButton:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[T1AutographPopup resetButton:]
+-[T1AutographPopup doneButton:]
+___31-[T1AutographPopup doneButton:]_block_invoke
+-[T1AutographPopup traitCollectionDidChange:]
+-[T1AutographPopup shouldAutorotateToInterfaceOrientation:]
+-[T1AutographPopup didReceiveMemoryWarning]
+-[T1AutographPopup viewDidUnload]
+-[T1AutographPopup delegate]
+-[T1AutographPopup setDelegate:]
+-[T1AutographPopup modalDisplayString]
+-[T1AutographPopup setModalDisplayString:]
+-[T1AutographPopup .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_CLASSLIST_REFERENCES_$_.66
+___block_descriptor_40_e8_32s_e5_v8?0l
+__OBJC_METACLASS_RO_$_T1AutographPopup
+__OBJC_$_INSTANCE_METHODS_T1AutographPopup
+__OBJC_$_INSTANCE_VARIABLES_T1AutographPopup
+__OBJC_$_PROP_LIST_T1AutographPopup
+__OBJC_CLASS_RO_$_T1AutographPopup
+_OBJC_CLASSLIST_REFERENCES_$_.124
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1AutographPopup.m
+T1AutographPopup.m
+__31-[T1AutographPopup doneButton:]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__33-[T1AutographPopup cancelButton:]_block_invoke
+UI_USER_INTERFACE_IDIOM
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDevice.h
+-[T1Signature init]
+-[T1Signature setImageData:]
+-[T1Signature setPdfData:]
+-[T1Signature dealloc]
+-[T1Signature imageData]
+-[T1Signature imageView]
+-[T1Signature setImageView:]
+-[T1Signature pdfData]
+-[T1Signature pdf]
+-[T1Signature setPdf:]
+-[T1Signature svgString]
+-[T1Signature setSvgString:]
+-[T1Signature xmlString]
+-[T1Signature setXmlString:]
+-[T1Signature hashString]
+-[T1Signature setHashString:]
+-[T1Signature frame]
+-[T1Signature setFrame:]
+-[T1Signature timestamp]
+-[T1Signature setTimestamp:]
+-[T1Signature rawPoints]
+-[T1Signature setRawPoints:]
+-[T1Signature .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.8
+__OBJC_METACLASS_RO_$_T1Signature
+__OBJC_$_INSTANCE_METHODS_T1Signature
+_OBJC_IVAR_$_T1Signature._imageData
+_OBJC_IVAR_$_T1Signature._imageView
+_OBJC_IVAR_$_T1Signature._pdfData
+_OBJC_IVAR_$_T1Signature._pdf
+_OBJC_IVAR_$_T1Signature._svgString
+_OBJC_IVAR_$_T1Signature._xmlString
+_OBJC_IVAR_$_T1Signature._hashString
+_OBJC_IVAR_$_T1Signature._timestamp
+_OBJC_IVAR_$_T1Signature._rawPoints
+_OBJC_IVAR_$_T1Signature._frame
+__OBJC_$_INSTANCE_VARIABLES_T1Signature
+__OBJC_$_PROP_LIST_T1Signature
+__OBJC_CLASS_RO_$_T1Signature
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1Signature.m
+T1Signature.m
+T1Signature.h
+-[T1SignaturePoint copyWithZone:]
++[T1SignaturePoint pointWithTouch:inView:]
+-[T1SignaturePoint updateVelocityAndAccelerationWithPreviousPoint:metersPerPoint:]
+-[T1SignaturePoint locationOfTouch:inView:]
+-[T1SignaturePoint azimuthAngleForTouch:inView:]
+-[T1SignaturePoint altitudeAngleForTouch:]
+-[T1SignaturePoint pressureForTouch:]
+-[T1SignaturePoint description]
+-[T1SignaturePoint location]
+-[T1SignaturePoint setLocation:]
+-[T1SignaturePoint velocity]
+-[T1SignaturePoint setVelocity:]
+-[T1SignaturePoint acceleration]
+-[T1SignaturePoint setAcceleration:]
+-[T1SignaturePoint timestamp]
+-[T1SignaturePoint setTimestamp:]
+-[T1SignaturePoint azimuthAngle]
+-[T1SignaturePoint setAzimuthAngle:]
+-[T1SignaturePoint altitudeAngle]
+-[T1SignaturePoint setAltitudeAngle:]
+-[T1SignaturePoint pressure]
+-[T1SignaturePoint setPressure:]
+-[T1SignaturePoint diameter]
+-[T1SignaturePoint setDiameter:]
+-[T1SignaturePoint id]
+-[T1SignaturePoint setId:]
+__OBJC_$_CLASS_METHODS_T1SignaturePoint
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_T1SignaturePoint
+__OBJC_METACLASS_RO_$_T1SignaturePoint
+__OBJC_$_INSTANCE_METHODS_T1SignaturePoint
+_OBJC_IVAR_$_T1SignaturePoint._azimuthAngle
+_OBJC_IVAR_$_T1SignaturePoint._altitudeAngle
+_OBJC_IVAR_$_T1SignaturePoint._pressure
+_OBJC_IVAR_$_T1SignaturePoint._diameter
+_OBJC_IVAR_$_T1SignaturePoint._timestamp
+_OBJC_IVAR_$_T1SignaturePoint._id
+_OBJC_IVAR_$_T1SignaturePoint._location
+_OBJC_IVAR_$_T1SignaturePoint._velocity
+_OBJC_IVAR_$_T1SignaturePoint._acceleration
+__OBJC_$_INSTANCE_VARIABLES_T1SignaturePoint
+__OBJC_$_PROP_LIST_T1SignaturePoint
+__OBJC_CLASS_RO_$_T1SignaturePoint
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1SignaturePoint.m
+T1SignaturePoint.h
+T1SignaturePoint.m
++[T1DPICalculator deviceDpi]
++[T1DPICalculator metersPerPixel]
++[T1DPICalculator metersPerPoint]
++[T1DPICalculator pixelsPerPoint]
++[T1DPICalculator deviceModel]
++[T1DPICalculator ppiDictionary]
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_CLASSLIST_REFERENCES_$_.221
+_OBJC_SELECTOR_REFERENCES_.223
+__OBJC_$_CLASS_METHODS_T1DPICalculator
+__OBJC_METACLASS_RO_$_T1DPICalculator
+__OBJC_CLASS_RO_$_T1DPICalculator
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1DPICalculator.m
+T1DPICalculator.m
+-[T1AutographController initWithView:delegate:manager:]
+-[T1AutographController dealloc]
+-[T1AutographController gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:]
+-[T1AutographController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[T1AutographController observeValueForKeyPath:ofObject:change:context:]
+-[T1AutographController updateLayout]
+-[T1AutographController layoutGuideline]
+-[T1AutographController setShowGuideline:]
+-[T1AutographController setStrokeWidthMax:]
+-[T1AutographController setVelocityReduction:]
+-[T1AutographController setUseCalligraphicBrush:]
+-[T1AutographController setStrokeExportColor:]
+-[T1AutographController tapped:]
+-[T1AutographController undo:]
+-[T1AutographController redo:]
+-[T1AutographController sha1DigestStringWithString:]
+-[T1AutographController hashedName:withString:]
+-[T1AutographController checkLicense:withName:]
+-[T1AutographController viewDidLoad]
+-[T1AutographController touchesIncludePen:]
+-[T1AutographController shouldDrawWithTouches:]
+-[T1AutographController touchesBegan:withEvent:]
+-[T1AutographController touchesMoved:withEvent:]
+-[T1AutographController touchesEnded:withEvent:]
+-[T1AutographController touchesCancelled:withEvent:]
+-[T1AutographController numberOfPointsInCurrentSignature]
+-[T1AutographController initiateDrawingPointFromTouch:]
+-[T1AutographController locationOfTouch:inView:]
+-[T1AutographController previousLocationOfTouch:inView:]
+-[T1AutographController lastDrawingPointMatchedInTouchesAndSaved:]
+-[T1AutographController reset:]
+-[T1AutographController didDismissModalView]
+-[T1AutographController prepareSignature]
+-[T1AutographController willBeDone:]
+-[T1AutographController done:]
+-[T1AutographController cacheSignatureAfterDelay:]
+___50-[T1AutographController cacheSignatureAfterDelay:]_block_invoke
+___50-[T1AutographController cacheSignatureAfterDelay:]_block_invoke_2
+___50-[T1AutographController cacheSignatureAfterDelay:]_block_invoke_3
+___copy_helper_block_e8_32s40w
+___destroy_helper_block_e8_32s40w
+-[T1AutographController runTimerBlockWithTimer:]
+-[T1AutographController prepareAutographData]
+-[T1AutographController copyOfStrokes:clippedToBounds:]
+-[T1AutographController boundingRectOfStrokesF:]
+-[T1AutographController uShortCappedStringOfInt:]
+-[T1AutographController shortCappedStringOfInt:]
+-[T1AutographController writeSamplePointList:strokes:locationPrescaler:timePrescaler:velocityPrescaler:accelerationPrescaler:pressurePrescaler:azimuthPrescaler:elevationPrescaler:]
+-[T1AutographController xmlDateString]
+-[T1AutographController createXmlString]
+-[T1AutographController createAndStoreHashString]
+-[T1AutographController copyOfStrokes:withOffset:]
+-[T1AutographController getImageData:]
+-[T1AutographController showGuideline]
+-[T1AutographController showDate]
+-[T1AutographController setShowDate:]
+-[T1AutographController dateIncludesTime]
+-[T1AutographController setDateIncludesTime:]
+-[T1AutographController showHash]
+-[T1AutographController setShowHash:]
+-[T1AutographController clipSignatureToBounds]
+-[T1AutographController setClipSignatureToBounds:]
+-[T1AutographController customHash]
+-[T1AutographController setCustomHash:]
+-[T1AutographController swipeToUndoEnabled]
+-[T1AutographController setSwipeToUndoEnabled:]
+-[T1AutographController strokeExportColor]
+-[T1AutographController strokeWidthMax]
+-[T1AutographController velocityReduction]
+-[T1AutographController exportScale]
+-[T1AutographController setExportScale:]
+-[T1AutographController exportDateSize]
+-[T1AutographController setExportDateSize:]
+-[T1AutographController exportHashSizeWidth]
+-[T1AutographController setExportHashSizeWidth:]
+-[T1AutographController exportHashSizeHeight]
+-[T1AutographController setExportHashSizeHeight:]
+-[T1AutographController exportFontRatio]
+-[T1AutographController setExportFontRatio:]
+-[T1AutographController exportHashFontSize]
+-[T1AutographController setExportHashFontSize:]
+-[T1AutographController exportHashOpacity]
+-[T1AutographController setExportHashOpacity:]
+-[T1AutographController smoothingAmount]
+-[T1AutographController setSmoothingAmount:]
+-[T1AutographController licenseCode]
+-[T1AutographController setLicenseCode:]
+-[T1AutographController lastHash]
+-[T1AutographController setLastHash:]
+-[T1AutographController buildNumber]
+-[T1AutographController setBuildNumber:]
+-[T1AutographController lastLocation]
+-[T1AutographController setLastLocation:]
+-[T1AutographController myBrushStrokes]
+-[T1AutographController setMyBrushStrokes:]
+-[T1AutographController delegate]
+-[T1AutographController setDelegate:]
+-[T1AutographController manager]
+-[T1AutographController setManager:]
+-[T1AutographController drawingController]
+-[T1AutographController setDrawingController:]
+-[T1AutographController autographView]
+-[T1AutographController setAutographView:]
+-[T1AutographController preparedSignature]
+-[T1AutographController setPreparedSignature:]
+-[T1AutographController lastDrawPoint]
+-[T1AutographController setLastDrawPoint:]
+-[T1AutographController lastPreciseDrawPoint]
+-[T1AutographController setLastPreciseDrawPoint:]
+-[T1AutographController imageData]
+-[T1AutographController setImageData:]
+-[T1AutographController pdfData]
+-[T1AutographController setPdfData:]
+-[T1AutographController xmlString]
+-[T1AutographController setXmlString:]
+-[T1AutographController svgString]
+-[T1AutographController setSvgString:]
+-[T1AutographController guideline]
+-[T1AutographController setGuideline:]
+-[T1AutographController drawOnlyWithApplePencil]
+-[T1AutographController setDrawOnlyWithApplePencil:]
+-[T1AutographController useCalligraphicBrush]
+-[T1AutographController skipPDFData]
+-[T1AutographController setSkipPDFData:]
+-[T1AutographController currentPressure]
+-[T1AutographController setCurrentPressure:]
+-[T1AutographController gestureRecognizers]
+-[T1AutographController setGestureRecognizers:]
+-[T1AutographController copyOfTargetViewBounds]
+-[T1AutographController setCopyOfTargetViewBounds:]
+-[T1AutographController cachedSignature]
+-[T1AutographController setCachedSignature:]
+-[T1AutographController cacheTimer]
+-[T1AutographController setCacheTimer:]
+-[T1AutographController cacheTimerBlock]
+-[T1AutographController setCacheTimerBlock:]
+-[T1AutographController willBeDoneCallbackRequested]
+-[T1AutographController setWillBeDoneCallbackRequested:]
+-[T1AutographController doneCallbackRequested]
+-[T1AutographController setDoneCallbackRequested:]
+-[T1AutographController delayBeforeCaching]
+-[T1AutographController setDelayBeforeCaching:]
+-[T1AutographController .cxx_destruct]
+_OBJC_IVAR_$_T1AutographController.buildNumber
+_OBJC_IVAR_$_T1AutographController.clipSignatureToBounds
+_OBJC_IVAR_$_T1AutographController.showGuideline
+_OBJC_IVAR_$_T1AutographController.showDate
+_OBJC_IVAR_$_T1AutographController.dateIncludesTime
+_OBJC_IVAR_$_T1AutographController.showHash
+_OBJC_IVAR_$_T1AutographController.swipeToUndoEnabled
+_OBJC_IVAR_$_T1AutographController.strokeExportColor
+_OBJC_IVAR_$_T1AutographController.strokeWidthMax
+_OBJC_IVAR_$_T1AutographController.exportScale
+_OBJC_IVAR_$_T1AutographController.exportDateSize
+_OBJC_IVAR_$_T1AutographController.exportFontRatio
+_OBJC_IVAR_$_T1AutographController.exportHashFontSize
+_OBJC_IVAR_$_T1AutographController.exportHashOpacity
+_OBJC_IVAR_$_T1AutographController.exportHashSizeWidth
+_OBJC_IVAR_$_T1AutographController.exportHashSizeHeight
+_OBJC_IVAR_$_T1AutographController.smoothingAmount
+_OBJC_CLASSLIST_REFERENCES_$_.32
+_OBJC_CLASSLIST_REFERENCES_$_.45
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_CLASSLIST_REFERENCES_$_.71
+_OBJC_CLASSLIST_REFERENCES_$_.78
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_CLASSLIST_REFERENCES_$_.100
+_OBJC_IVAR_$_T1AutographController.velocityReduction
+_OBJC_IVAR_$_T1AutographController._useCalligraphicBrush
+_OBJC_CLASSLIST_REFERENCES_$_.121
+_OBJC_CLASSLIST_REFERENCES_$_.127
+_OBJC_IVAR_$_T1AutographController.licenseCode
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_CLASSLIST_REFERENCES_$_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_CLASSLIST_REFERENCES_$_.237
+_OBJC_IVAR_$_T1AutographController.lastLocation
+_OBJC_IVAR_$_T1AutographController.myBrushStrokes
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.243
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_IVAR_$_T1AutographController.lastHash
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_CLASSLIST_REFERENCES_$_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.278
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_CLASSLIST_REFERENCES_$_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_CLASSLIST_REFERENCES_$_.284
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.290
+_OBJC_SELECTOR_REFERENCES_.292
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_SELECTOR_REFERENCES_.302
+_OBJC_SELECTOR_REFERENCES_.304
+_OBJC_SELECTOR_REFERENCES_.306
+_OBJC_SELECTOR_REFERENCES_.308
+_OBJC_SELECTOR_REFERENCES_.310
+_OBJC_SELECTOR_REFERENCES_.312
+_OBJC_SELECTOR_REFERENCES_.314
+_OBJC_SELECTOR_REFERENCES_.316
+_OBJC_SELECTOR_REFERENCES_.318
+_OBJC_SELECTOR_REFERENCES_.320
+_OBJC_SELECTOR_REFERENCES_.322
+_OBJC_SELECTOR_REFERENCES_.324
+_OBJC_SELECTOR_REFERENCES_.326
+_OBJC_SELECTOR_REFERENCES_.328
+_OBJC_SELECTOR_REFERENCES_.330
+_OBJC_SELECTOR_REFERENCES_.332
+___block_descriptor_48_e8_32s40w_e5_v8?0l
+___block_descriptor_48_e8_32s40w_e17_v16?0"NSTimer"8l
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_CLASSLIST_REFERENCES_$_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_SELECTOR_REFERENCES_.345
+_OBJC_SELECTOR_REFERENCES_.347
+_OBJC_SELECTOR_REFERENCES_.349
+_OBJC_SELECTOR_REFERENCES_.351
+_OBJC_SELECTOR_REFERENCES_.355
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_SELECTOR_REFERENCES_.363
+_OBJC_SELECTOR_REFERENCES_.365
+_OBJC_CLASSLIST_REFERENCES_$_.366
+_OBJC_SELECTOR_REFERENCES_.368
+_OBJC_SELECTOR_REFERENCES_.370
+_OBJC_CLASSLIST_REFERENCES_$_.371
+_OBJC_SELECTOR_REFERENCES_.373
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_SELECTOR_REFERENCES_.377
+_OBJC_SELECTOR_REFERENCES_.379
+_OBJC_SELECTOR_REFERENCES_.385
+_OBJC_SELECTOR_REFERENCES_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.391
+_OBJC_SELECTOR_REFERENCES_.393
+_OBJC_SELECTOR_REFERENCES_.395
+_OBJC_SELECTOR_REFERENCES_.397
+_OBJC_SELECTOR_REFERENCES_.399
+_OBJC_SELECTOR_REFERENCES_.401
+_OBJC_SELECTOR_REFERENCES_.405
+_OBJC_SELECTOR_REFERENCES_.411
+_OBJC_SELECTOR_REFERENCES_.413
+_OBJC_CLASSLIST_REFERENCES_$_.442
+_OBJC_SELECTOR_REFERENCES_.446
+_OBJC_CLASSLIST_REFERENCES_$_.447
+_OBJC_SELECTOR_REFERENCES_.451
+_OBJC_SELECTOR_REFERENCES_.453
+_OBJC_CLASSLIST_REFERENCES_$_.454
+_OBJC_SELECTOR_REFERENCES_.458
+_OBJC_SELECTOR_REFERENCES_.460
+_OBJC_SELECTOR_REFERENCES_.462
+_OBJC_SELECTOR_REFERENCES_.464
+_OBJC_SELECTOR_REFERENCES_.466
+_OBJC_SELECTOR_REFERENCES_.468
+_OBJC_CLASSLIST_REFERENCES_$_.469
+_OBJC_SELECTOR_REFERENCES_.471
+_OBJC_SELECTOR_REFERENCES_.477
+_OBJC_SELECTOR_REFERENCES_.529
+_OBJC_SELECTOR_REFERENCES_.539
+_OBJC_SELECTOR_REFERENCES_.541
+_OBJC_SELECTOR_REFERENCES_.543
+_OBJC_SELECTOR_REFERENCES_.545
+_OBJC_SELECTOR_REFERENCES_.547
+_OBJC_SELECTOR_REFERENCES_.549
+_OBJC_CLASSLIST_REFERENCES_$_.550
+_OBJC_SELECTOR_REFERENCES_.554
+_OBJC_SELECTOR_REFERENCES_.556
+_OBJC_CLASSLIST_REFERENCES_$_.557
+_OBJC_SELECTOR_REFERENCES_.559
+_OBJC_SELECTOR_REFERENCES_.561
+_OBJC_CLASSLIST_REFERENCES_$_.562
+_OBJC_SELECTOR_REFERENCES_.564
+_OBJC_SELECTOR_REFERENCES_.566
+_OBJC_SELECTOR_REFERENCES_.568
+_OBJC_CLASSLIST_REFERENCES_$_.571
+_OBJC_SELECTOR_REFERENCES_.573
+_OBJC_SELECTOR_REFERENCES_.575
+_OBJC_SELECTOR_REFERENCES_.577
+_OBJC_SELECTOR_REFERENCES_.579
+_OBJC_CLASSLIST_REFERENCES_$_.580
+_OBJC_SELECTOR_REFERENCES_.582
+_OBJC_SELECTOR_REFERENCES_.584
+_OBJC_SELECTOR_REFERENCES_.586
+_OBJC_SELECTOR_REFERENCES_.594
+_OBJC_SELECTOR_REFERENCES_.596
+_OBJC_SELECTOR_REFERENCES_.598
+_OBJC_SELECTOR_REFERENCES_.600
+_OBJC_SELECTOR_REFERENCES_.602
+_OBJC_SELECTOR_REFERENCES_.604
+_OBJC_SELECTOR_REFERENCES_.606
+_OBJC_SELECTOR_REFERENCES_.608
+_OBJC_SELECTOR_REFERENCES_.610
+_OBJC_SELECTOR_REFERENCES_.612
+_OBJC_SELECTOR_REFERENCES_.614
+_OBJC_SELECTOR_REFERENCES_.616
+_OBJC_SELECTOR_REFERENCES_.618
+_OBJC_SELECTOR_REFERENCES_.620
+_OBJC_SELECTOR_REFERENCES_.622
+_OBJC_SELECTOR_REFERENCES_.624
+_OBJC_SELECTOR_REFERENCES_.626
+_OBJC_SELECTOR_REFERENCES_.628
+_OBJC_SELECTOR_REFERENCES_.630
+_OBJC_SELECTOR_REFERENCES_.632
+_OBJC_SELECTOR_REFERENCES_.634
+_OBJC_SELECTOR_REFERENCES_.636
+_OBJC_SELECTOR_REFERENCES_.638
+_OBJC_SELECTOR_REFERENCES_.640
+_OBJC_IVAR_$_T1AutographController.customHash
+_OBJC_IVAR_$_T1AutographController._delegate
+_OBJC_IVAR_$_T1AutographController._manager
+_OBJC_IVAR_$_T1AutographController._drawingController
+_OBJC_IVAR_$_T1AutographController._autographView
+_OBJC_IVAR_$_T1AutographController._preparedSignature
+_OBJC_IVAR_$_T1AutographController._lastDrawPoint
+_OBJC_IVAR_$_T1AutographController._lastPreciseDrawPoint
+_OBJC_IVAR_$_T1AutographController._imageData
+_OBJC_IVAR_$_T1AutographController._pdfData
+_OBJC_IVAR_$_T1AutographController._xmlString
+_OBJC_IVAR_$_T1AutographController._svgString
+_OBJC_IVAR_$_T1AutographController._guideline
+_OBJC_IVAR_$_T1AutographController._drawOnlyWithApplePencil
+_OBJC_IVAR_$_T1AutographController._skipPDFData
+_OBJC_IVAR_$_T1AutographController._currentPressure
+_OBJC_IVAR_$_T1AutographController._gestureRecognizers
+_OBJC_IVAR_$_T1AutographController._copyOfTargetViewBounds
+_OBJC_IVAR_$_T1AutographController._cachedSignature
+_OBJC_IVAR_$_T1AutographController._cacheTimer
+_OBJC_IVAR_$_T1AutographController._cacheTimerBlock
+_OBJC_IVAR_$_T1AutographController._willBeDoneCallbackRequested
+_OBJC_IVAR_$_T1AutographController._doneCallbackRequested
+_OBJC_IVAR_$_T1AutographController._delayBeforeCaching
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+__OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+__OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
+__OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UIPopoverPresentationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPopoverPresentationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIPopoverPresentationControllerDelegate
+__OBJC_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+__OBJC_CLASS_PROTOCOLS_$_T1AutographController
+__OBJC_METACLASS_RO_$_T1AutographController
+__OBJC_$_INSTANCE_METHODS_T1AutographController
+__OBJC_$_INSTANCE_VARIABLES_T1AutographController
+__OBJC_$_PROP_LIST_T1AutographController
+__OBJC_CLASS_RO_$_T1AutographController
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1AutographController.m
+T1AutographController.m
+T1AutographController.h
+distanceBetween
+renderOutline
+setupPDFRenderState
+myCGDataConsumerCreateWithCFData
+renderHashWithContext
+validateLogoAndRenderWatermark
+renderDate
+renderSignature
+cfDataCreatePDFDocumentFromDrawing
+myCFDataConsumerRelease
+myCFDataConsumerPutBytes
+__destroy_helper_block_e8_32s40w
+__copy_helper_block_e8_32s40w
+__50-[T1AutographController cacheSignatureAfterDelay:]_block_invoke_3
+__50-[T1AutographController cacheSignatureAfterDelay:]_block_invoke_2
+__50-[T1AutographController cacheSignatureAfterDelay:]_block_invoke
+__CGPointEqualToPoint
++[T1Autograph autographWithDelegate:modalDisplayString:]
++[T1Autograph autographWithView:delegate:]
+-[T1Autograph initWithView:delegate:modal:modalDisplayString:]
+___62-[T1Autograph initWithView:delegate:modal:modalDisplayString:]_block_invoke
+-[T1Autograph reset:]
+-[T1Autograph done:]
+-[T1Autograph setClipSignatureToBounds:]
+-[T1Autograph setDrawOnlyWithApplePencil:]
+-[T1Autograph setShowGuideline:]
+-[T1Autograph setExportScale:]
+-[T1Autograph setShowDate:]
+-[T1Autograph setDateIncludesTime:]
+-[T1Autograph setShowHash:]
+-[T1Autograph setCustomHash:]
+-[T1Autograph setSwipeToUndoEnabled:]
+-[T1Autograph setStrokeColor:]
+-[T1Autograph setLicenseCode:]
+-[T1Autograph setStrokeWidth:]
+-[T1Autograph setVelocityReduction:]
+-[T1Autograph setUseCalligraphicBrush:]
+-[T1Autograph buildNumber]
+-[T1Autograph showGuideline]
+-[T1Autograph showDate]
+-[T1Autograph dateIncludesTime]
+-[T1Autograph showHash]
+-[T1Autograph swipeToUndoEnabled]
+-[T1Autograph strokeColor]
+-[T1Autograph strokeWidth]
+-[T1Autograph velocityReduction]
+-[T1Autograph exportScale]
+-[T1Autograph licenseCode]
+-[T1Autograph customHash]
+-[T1Autograph clipSignatureToBounds]
+-[T1Autograph drawOnlyWithApplePencil]
+-[T1Autograph useCalligraphicBrush]
+-[T1Autograph modalController]
+-[T1Autograph setModalController:]
+-[T1Autograph autographController]
+-[T1Autograph setAutographController:]
+-[T1Autograph .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_SELECTOR_REFERENCES_.31
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+__OBJC_$_CLASS_METHODS_T1Autograph
+__OBJC_METACLASS_RO_$_T1Autograph
+__OBJC_$_INSTANCE_METHODS_T1Autograph
+_OBJC_IVAR_$_T1Autograph.showGuideline
+_OBJC_IVAR_$_T1Autograph.showDate
+_OBJC_IVAR_$_T1Autograph.dateIncludesTime
+_OBJC_IVAR_$_T1Autograph.showHash
+_OBJC_IVAR_$_T1Autograph.swipeToUndoEnabled
+_OBJC_IVAR_$_T1Autograph.clipSignatureToBounds
+_OBJC_IVAR_$_T1Autograph.drawOnlyWithApplePencil
+_OBJC_IVAR_$_T1Autograph._useCalligraphicBrush
+_OBJC_IVAR_$_T1Autograph.strokeWidth
+_OBJC_IVAR_$_T1Autograph.velocityReduction
+_OBJC_IVAR_$_T1Autograph.exportScale
+_OBJC_IVAR_$_T1Autograph.strokeColor
+_OBJC_IVAR_$_T1Autograph.licenseCode
+_OBJC_IVAR_$_T1Autograph.buildNumber
+_OBJC_IVAR_$_T1Autograph.customHash
+_OBJC_IVAR_$_T1Autograph._modalController
+_OBJC_IVAR_$_T1Autograph._autographController
+__OBJC_$_INSTANCE_VARIABLES_T1Autograph
+__OBJC_$_PROP_LIST_T1Autograph
+__OBJC_CLASS_RO_$_T1Autograph
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1Autograph.m
+T1Autograph.m
+__62-[T1Autograph initWithView:delegate:modal:modalDisplayString:]_block_invoke
+-[T1XMLSerializer startDocument:]
+-[T1XMLSerializer startTag:]
+-[T1XMLSerializer text:]
+-[T1XMLSerializer endTag:]
+-[T1XMLSerializer endDocument]
+-[T1XMLSerializer toString]
++[T1XMLSerializer sample]
++[T1XMLSerializer svgSample]
+-[T1XMLSerializer string]
+-[T1XMLSerializer setString:]
+-[T1XMLSerializer .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.9
+__OBJC_$_CLASS_METHODS_T1XMLSerializer
+__OBJC_METACLASS_RO_$_T1XMLSerializer
+__OBJC_$_INSTANCE_METHODS_T1XMLSerializer
+_OBJC_IVAR_$_T1XMLSerializer._string
+__OBJC_$_INSTANCE_VARIABLES_T1XMLSerializer
+__OBJC_$_PROP_LIST_T1XMLSerializer
+__OBJC_CLASS_RO_$_T1XMLSerializer
+/Users/peter/Dropbox/Ten One Design/Engineering/Xcode/T1Autograph/T1XMLSerializer.m
+T1XMLSerializer.m
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Xclang -clang-vendor-feature=+nullptrToBoolConversion -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNeonImmediateRangeCheck -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+revert09abecef7bbf -mlinker-version=711
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk
+iPhoneOS15.0.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+llvm.loop.mustprogress
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
