@@ -25,12 +25,12 @@
     
     for ( int i = 1; i < 4; i++) {
         UIImageView *images = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"NewsLetter%d.jpg", i]]];
-        images.frame = CGRectMake((i - 1)* 768, 0, 768, 881);
+        images.frame = CGRectMake((i - 1)* 768, 0, 768, 954);
         [scrollView addSubview:images];
     }
     
     scrollView.delegate =self;
-    scrollView.contentSize = CGSizeMake(3 * 768, 881);
+    scrollView.contentSize = CGSizeMake(3 * 768, 954);
     scrollView.pagingEnabled = YES;
     
     pageControll.numberOfPages = 3;

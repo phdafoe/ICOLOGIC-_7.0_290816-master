@@ -17,6 +17,7 @@
 
 -(void)awakeFromNib
 {
+    [super awakeFromNib];
     
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Images" ofType:@"plist"];
     NSArray *imagePath = [NSArray arrayWithContentsOfFile:plistPath];

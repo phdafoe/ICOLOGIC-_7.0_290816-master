@@ -34,15 +34,8 @@
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FH-A4-oQx">
-                                <rect key="frame" x="33" y="655" width="306" height="253"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ortoface es una clínica dedicada a la Ortodoncia en exclusiva desde 1992 con especial énfasis en el tratamiento de los pacientes con malformaciones faciales (Fisura de labio y paladar, Labio leporino) esqueléticas o sindrómicas (Síndrome de Down, Síndrome de Turner, Síndrome de Crouzon, Sïndrome de Pierre Robin).                                              Trabajamos de forma multidisciplinar y coordinada con cirujanos especialistas, pediatras y odontólogos en forma de sesiones clínicas conjuntas, lo que pretende garantizar un resultado de alta calidad estética y funcional.                                 </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" secureTextEntry="YES"/>
-                            </textView>
                             <view alpha="0.50000000000000011" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jTX-YB-tIh">
-                                <rect key="frame" x="0.0" y="930" width="768" height="45"/>
+                                <rect key="frame" x="0.0" y="979" width="768" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Telf: 91/539 38 19 - 91/528 87 16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcR-mh-lQC" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
@@ -91,13 +84,6 @@
                                 <rect key="frame" x="-20" y="551" width="806" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="¿QUÉ ES ORTOFACE?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVb-hh-tsU">
-                                <rect key="frame" x="39" y="613" width="280" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="23"/>
-                                <color key="textColor" systemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="iRB-d3-qZ4">
                                 <rect key="frame" x="29" y="537" width="708" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,11 +122,25 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FH-A4-oQx">
+                                <rect key="frame" x="29" y="686" width="306" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ortoface es una clínica dedicada a la Ortodoncia en exclusiva desde 1992 con especial énfasis en el tratamiento de los pacientes con malformaciones faciales (Fisura de labio y paladar, Labio leporino) esqueléticas o sindrómicas (Síndrome de Down, Síndrome de Turner, Síndrome de Crouzon, Sïndrome de Pierre Robin).                                              Trabajamos de forma multidisciplinar y coordinada con cirujanos especialistas, pediatras y odontólogos en forma de sesiones clínicas conjuntas, lo que pretende garantizar un resultado de alta calidad estética y funcional.                                 </string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" secureTextEntry="YES"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="¿QUÉ ES ORTOFACE?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVb-hh-tsU">
+                                <rect key="frame" x="35" y="644" width="280" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="ORTOFACE" id="npz-ux-9Nw">
-                        <barButtonItem key="rightBarButtonItem" title="+ INFORMACION" style="plain" id="bp1-Xm-0HI">
+                        <barButtonItem key="rightBarButtonItem" title="+ INFO" style="plain" id="bp1-Xm-0HI">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="4qr-4S-unP" kind="push" id="wPl-nE-gFA"/>
@@ -325,7 +325,7 @@
                                         </subviews>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5N-C8-L6F">
-                                        <rect key="frame" x="679" y="916" width="53" height="53"/>
+                                        <rect key="frame" x="679" y="903" width="53" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" image="boton_siguiente.png">
@@ -343,7 +343,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvq-Vt-Mv2">
-                                        <rect key="frame" x="28" y="933" width="49" height="30"/>
+                                        <rect key="frame" x="28" y="917" width="49" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" image="boton_carga_info.png">
@@ -1113,7 +1113,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcr-9O-UyN">
-                                        <rect key="frame" x="123" y="937" width="45" height="30"/>
+                                        <rect key="frame" x="118" y="919" width="45" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" image="boton_enviar_mail.png">
@@ -3447,26 +3447,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tuq-Dc-Pkq">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vFl-sY-HGr">
+                                <rect key="frame" x="0.0" y="82" width="768" height="942"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <dataDetectorType key="dataDetectorTypes"/>
-                                <connections>
-                                    <outlet property="delegate" destination="66B-nL-1oZ" id="Wzc-xu-Aar"/>
-                                </connections>
-                            </webView>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="SBs-CR-b3o">
+                                <rect key="frame" x="374" y="543" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="CbU-xL-f4U"/>
                     <connections>
-                        <outlet property="webView" destination="tuq-Dc-Pkq" id="J1r-fo-xrj"/>
+                        <outlet property="indicator" destination="SBs-CR-b3o" id="1GI-GR-pns"/>
+                        <outlet property="webView" destination="vFl-sY-HGr" id="zYX-iD-Y91"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwp-jo-ugz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3172.65625" y="-856.640625"/>
+            <point key="canvasLocation" x="3173" y="-857"/>
         </scene>
         <!--ORTOFACE-->
         <scene sceneID="UMe-GM-mbv">

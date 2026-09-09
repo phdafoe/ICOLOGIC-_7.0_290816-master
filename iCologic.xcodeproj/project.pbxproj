@@ -125,6 +125,7 @@
 		68F9D158173D6843009C789C /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F9D154173D6843009C789C /* menu-icon@2x.png */; };
 		78931B222C04ACE20068BA06 /* T1Autograph.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78931B212C04ACDE0068BA06 /* T1Autograph.xcframework */; };
 		78931B252C04AD720068BA06 /* T1Autograph.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78931B212C04ACDE0068BA06 /* T1Autograph.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC01BFB93051BBF3000C8337 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC01BFB83051BBF3000C8337 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -292,6 +293,7 @@
 		68F9D153173D6843009C789C /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
 		68F9D154173D6843009C789C /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
 		78931B212C04ACDE0068BA06 /* T1Autograph.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = T1Autograph.xcframework; sourceTree = "<group>"; };
+		DC01BFB83051BBF3000C8337 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F62C31B2280048490009B595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -302,6 +304,7 @@
 			files = (
 				6838051E166D134C00ED579C /* libc++abi.dylib in Frameworks */,
 				6808AE36164E9E7700EE8CF8 /* CoreVideo.framework in Frameworks */,
+				DC01BFB93051BBF3000C8337 /* WebKit.framework in Frameworks */,
 				687A9E7F164BE8BD00F2E65C /* AVFoundation.framework in Frameworks */,
 				78931B222C04ACE20068BA06 /* T1Autograph.xcframework in Frameworks */,
 				687A9E7C164BE89500F2E65C /* AssetsLibrary.framework in Frameworks */,
@@ -363,6 +366,7 @@
 		685D3337162DB2BC000E9FEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC01BFB83051BBF3000C8337 /* WebKit.framework */,
 				6838051D166D134C00ED579C /* libc++abi.dylib */,
 				6808AE35164E9E7700EE8CF8 /* CoreVideo.framework */,
 				687A9E7E164BE8BD00F2E65C /* AVFoundation.framework */,
