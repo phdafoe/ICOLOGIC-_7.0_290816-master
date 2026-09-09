@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="4">
     <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -141,8 +140,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="ORTOFACE" id="npz-ux-9Nw">
-                        <barButtonItem key="rightBarButtonItem" title="+ INFORMACION" id="bp1-Xm-0HI">
-                            <color key="tintColor" red="0.081328734429999994" green="0.4694272733" blue="0.88699473510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <barButtonItem key="rightBarButtonItem" title="+ INFORMACION" style="plain" id="bp1-Xm-0HI">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="4qr-4S-unP" kind="push" id="wPl-nE-gFA"/>
                             </connections>
@@ -169,11 +168,11 @@
                         <viewControllerLayoutGuide type="bottom" id="2YD-Nm-iI0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UO9-uy-GtA">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="590"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGC-v1-7zZ">
-                                <rect key="frame" x="17" y="277" width="506" height="186"/>
+                                <rect key="frame" x="17" y="277" width="506" height="206"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">De acuerdo con lo establecido por la Ley Orgánica 15/1999, de  13 de Diciembre, de Protección de Datos de Carácter Personal, doy mi consentimiento para que mis datos presonales sean incluidos en un fichero automatizado y en soporte papel del que es titular ORTOFACE S.L., y puedan ser utilizados para la gestión de datos de los pacientes y de sus tutores o representanes legales, del historial clínico del paciente, de sus tratamientos, de las tareas administrativas derivadas de la presentación asistencial. para actividades de caráter social y, con una finalidad docente pudiendo utilizarse en presentaciones profesionales, así mismo declaro estar informado sobre los derechos de acceso, rectificación, cancelación y oposición que podré ejercitar en Pº DE LAS DELICIAS, 55 1º DCHA - 28045 - MADRID.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -272,6 +271,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="540" height="600"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="540" height="600"/>
                     <connections>
@@ -337,7 +337,9 @@
                                         </state>
                                         <connections>
                                             <action selector="enviar:" destination="3" eventType="touchUpInside" id="hkQ-Gb-gCu"/>
-                                            <segue destination="ue5-Q0-AsX" kind="modal" identifier="First to second" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ddh-Yf-MgL"/>
+                                            <segue destination="ue5-Q0-AsX" kind="popover" identifier="First to second" popoverAnchorView="Y5N-C8-L6F" id="ddh-Yf-MgL">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvq-Vt-Mv2">
@@ -1257,7 +1259,7 @@
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="e61-Xw-DHb">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1278,11 +1280,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Bew-cg-qj9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="43d-pS-UKu">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="590"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syR-zB-OiK">
-                                <rect key="frame" x="17" y="277" width="506" height="194"/>
+                                <rect key="frame" x="17" y="277" width="506" height="211"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">De acuerdo con lo establecido por la Ley Orgánica 15/1999, de  13 de Diciembre, de Protección de Datos de Carácter Personal, doy mi consentimiento para que mis datos presonales sean incluidos en un fichero automatizado y en soporte papel del que es titular ORTOFACE S.L., y puedan ser utilizados para la gestión de datos de los pacientes y de sus tutores o representanes legales, del historial clínico del paciente, de sus tratamientos, de las tareas administrativas derivadas de la presentación asistencial. para actividades de caráter social y, con una finalidad docente pudiendo utilizarse en presentaciones profesionales, así mismo declaro estar informado sobre los derechos de acceso, rectificación, cancelación y oposición que podré ejercitar en Pº DE LAS DELICIAS, 55 1º DCHA - 28045 - MADRID.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1381,6 +1383,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="540" height="600"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="540" height="600"/>
                     <connections>
@@ -1446,7 +1449,9 @@
                                         </state>
                                         <connections>
                                             <action selector="enviar:" destination="2dO-12-BgK" eventType="touchUpInside" id="tbX-MI-eBg"/>
-                                            <segue destination="dMK-92-W7f" kind="modal" identifier="First to second" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="g7j-1c-xC2"/>
+                                            <segue destination="dMK-92-W7f" kind="popover" identifier="First to second" popoverAnchorView="3rW-ML-vBF" id="g7j-1c-xC2">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzg-8S-ng9">
@@ -2371,7 +2376,7 @@
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="d9x-Gp-jgp">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2392,11 +2397,11 @@
                         <viewControllerLayoutGuide type="bottom" id="p1l-DY-8oN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7th-Lm-eww">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="590"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HQ-dt-Xnd">
-                                <rect key="frame" x="17" y="277" width="506" height="194"/>
+                                <rect key="frame" x="17" y="277" width="506" height="203"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">De acuerdo con lo establecido por la Ley Orgánica 15/1999, de  13 de Diciembre, de Protección de Datos de Carácter Personal, doy mi consentimiento para que mis datos presonales sean incluidos en un fichero automatizado y en soporte papel del que es titular ORTOFACE S.L., y puedan ser utilizados para la gestión de datos de los pacientes y de sus tutores o representanes legales, del historial clínico del paciente, de sus tratamientos, de las tareas administrativas derivadas de la presentación asistencial. para actividades de caráter social y, con una finalidad docente pudiendo utilizarse en presentaciones profesionales, así mismo declaro estar informado sobre los derechos de acceso, rectificación, cancelación y oposición que podré ejercitar en Pº DE LAS DELICIAS, 55 1º DCHA - 28045 - MADRID.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2495,6 +2500,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="540" height="600"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="540" height="600"/>
                     <connections>
@@ -2542,7 +2548,9 @@
                                         </state>
                                         <connections>
                                             <action selector="enviar:" destination="Bdt-xa-IEJ" eventType="touchUpInside" id="u0t-6T-g0S"/>
-                                            <segue destination="o5w-az-4Q8" kind="modal" identifier="First to second" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="q9V-m0-fPa"/>
+                                            <segue destination="o5w-az-4Q8" kind="popover" identifier="First to second" popoverAnchorView="f7U-u6-O90" id="q9V-m0-fPa">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPb-FG-I6O">
@@ -3415,7 +3423,7 @@
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="gny-B7-bAx">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -3460,7 +3468,7 @@
             </objects>
             <point key="canvasLocation" x="3172.65625" y="-856.640625"/>
         </scene>
-        <!--INFORMACION-->
+        <!--ORTOFACE-->
         <scene sceneID="UMe-GM-mbv">
             <objects>
                 <viewController storyboardIdentifier="Ortoface2" id="4qr-4S-unP" customClass="SuperGaleriaViewController" sceneMemberID="viewController">
@@ -3473,15 +3481,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="FONDO_BIENVENIDOS.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7jf-HS-ivy">
-                                <rect key="frame" x="0.0" y="44" width="768" height="980"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" bounces="NO" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnh-LB-1a3">
-                                <rect key="frame" x="0.0" y="63" width="768" height="879"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="0.0" y="70" width="768" height="954"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </scrollView>
-                            <pageControl opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="lKT-N8-bde">
-                                <rect key="frame" x="0.0" y="938" width="768" height="36"/>
+                            <pageControl hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="lKT-N8-bde">
+                                <rect key="frame" x="0.0" y="988" width="768" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="pageIndicatorTintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.081328734427634206" green="0.4694272733389564" blue="0.88699473505434778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3493,7 +3501,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ORTOFACE" image="ortoface.png" id="tEX-5G-Qz5"/>
-                    <navigationItem key="navigationItem" title="INFORMACION" id="Wrb-UU-Xrz"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Wrb-UU-Xrz"/>
                     <connections>
                         <outlet property="pageControll" destination="lKT-N8-bde" id="DZZ-vM-rF5"/>
                         <outlet property="scrollView" destination="xnh-LB-1a3" id="EPb-DA-LJN"/>
@@ -3511,7 +3519,7 @@
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="GXD-Q2-Eqt">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

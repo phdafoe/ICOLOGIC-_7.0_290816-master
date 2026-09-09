@@ -1175,13 +1175,22 @@
     
     
    
-     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Atención!"
-                                                     message:@"Proceso realizado Satisfactoriamente"
+     /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Atención!"
+                                                     message:@"Proceso realizado satisfactoriamente"
                                                     delegate:nil
                                            cancelButtonTitle:nil
                                            otherButtonTitles:@"OK!", nil];
      
-     [alert show];
+     [alert show];*/
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Atención!"
+                                                                   message:@"Proceso realizado satisfactoriamente"
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK!"
+                                              style:UIAlertActionStyleDefault
+                                            handler:nil]];
+    
+    [self presentViewController:alert animated:YES completion:nil];
    
     
     MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];

@@ -171,13 +171,22 @@
         dispatch_async(dispatch_get_main_queue(), ^(void){
             [self presentViewController:picker animated:YES completion:nil];
             
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Gracias!"
+            /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Gracias!"
                                                             message:@"El Proceso de captura de Datos a terminado satisfactoriamente, pulse por favor en el botón Cerrar"
                                                            delegate:nil
                                                   cancelButtonTitle:nil
                                                   otherButtonTitles:@"OK!", nil];
             
-            [alert show];
+            [alert show];*/
+            
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Gracias!"
+                                                                           message:@"El Proceso de captura de Datos a terminado satisfactoriamente, pulse por favor en el botón Cerrar"
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+            [alert addAction:[UIAlertAction actionWithTitle:@"OK!"
+                                                      style:UIAlertActionStyleDefault
+                                                    handler:nil]];
+            
+            [self presentViewController:alert animated:YES completion:nil];
         });
     });
     
