@@ -61,17 +61,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //766 × 510 pixels
 	
     
     //int i;
     for (int i = 1; i < 7; i ++) {
         UIImageView *images = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"slider%d.png",i]]];
-        images.frame = CGRectMake((i - 1)*708, 0, 708, 412);
+        images.frame = CGRectMake((i - 1)*766, 0, 766, 510);
         [scrollView addSubview:images];
     }
     
     scrollView.delegate = self;
-    scrollView.contentSize = CGSizeMake( 6 * 708, 412);
+    scrollView.contentSize = CGSizeMake( 6 * 766, 510);
     scrollView.pagingEnabled = YES;
     
     pageControll.numberOfPages = 6;
@@ -79,7 +80,7 @@
     
     //carousel.type = iCarouselTypeCoverFlow2;
     
-    for (int i = 1; i < 7; i ++) {
+    for (int i = 1; i < 4; i ++) {
         //197*265
         UIImageView *images = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"Doc_%d.jpg",i]]];
         images.frame = CGRectMake((i - 1)*197, 0, 197, 265);
@@ -87,10 +88,10 @@
     }
     
     _myScrollViewPersonal.delegate = self;
-    _myScrollViewPersonal.contentSize = CGSizeMake( 6 * 197, 265);
+    _myScrollViewPersonal.contentSize = CGSizeMake( 3 * 197, 265);
     _myScrollViewPersonal.pagingEnabled = YES;
     
-    _myPageControlPersonal.numberOfPages = 6;
+    _myPageControlPersonal.numberOfPages = 3;
     _myPageControlPersonal.currentPage = 0;
     
     

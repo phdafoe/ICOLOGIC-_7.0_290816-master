@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="25098" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="4">
     <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="25073"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,91 +19,66 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="FONDO_BIENVENIDOS.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CRV-OM-eXa">
-                                <rect key="frame" x="0.0" y="67" width="768" height="957"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H2Y-5U-0ae">
-                                <rect key="frame" x="10" y="72" width="290" height="55"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="H2Y-5U-0ae">
+                                <rect key="frame" x="9" y="37" width="251" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvY-9U-rb6">
-                                <rect key="frame" x="49" y="575" width="178" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">¿Qué es Ortoface?
-</string>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <view alpha="0.50000000000000011" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jTX-YB-tIh">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jTX-YB-tIh">
                                 <rect key="frame" x="0.0" y="979" width="768" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Telf: 91/539 38 19 - 91/528 87 16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcR-mh-lQC" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
-                                        <rect key="frame" x="271" y="10" width="196" height="27"/>
+                                        <rect key="frame" x="88" y="18" width="155" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="10"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Fax: 91/530 18 99" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWR-3Y-t77" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
-                                        <rect key="frame" x="444" y="10" width="196" height="27"/>
+                                        <rect key="frame" x="270" y="18" width="96" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="10"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="clinica@ortoface.es" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sN-kg-y9Q" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
-                                        <rect key="frame" x="549" y="10" width="196" height="27"/>
+                                        <rect key="frame" x="374" y="18" width="98" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Diseño iOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydA-ub-cla" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
-                                        <rect key="frame" x="660" y="10" width="196" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="10"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="MADRID, Paseo de las Delicias 55 1º dcha " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmw-jb-2Ur" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
-                                        <rect key="frame" x="65" y="10" width="196" height="27"/>
+                                        <rect key="frame" x="484" y="18" width="159" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="8"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.13253512980000001" green="0.1376928389" blue="0.2536136806" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIK-FL-2zQ">
-                                <rect key="frame" x="29" y="135" width="708" height="412"/>
+                                <rect key="frame" x="1" y="133" width="766" height="510"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="tit_banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Rjs-lL-1nI">
-                                <rect key="frame" x="-20" y="551" width="806" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="iRB-d3-qZ4">
-                                <rect key="frame" x="29" y="537" width="708" height="36"/>
+                                <rect key="frame" x="30" y="632" width="708" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="pageIndicatorTintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.13253512980000001" green="0.1376928389" blue="0.2536136806" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="currentPageIndicatorTintColor" red="0.081328734429999994" green="0.4694272733" blue="0.88699473510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="clickPageControll:" destination="2" eventType="valueChanged" id="7kS-UX-YtH"/>
                                 </connections>
                             </pageControl>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clínica especializada en prevención y alteraciones de la oclusión" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEU-6j-Dy7">
-                                <rect key="frame" x="300" y="67" width="437" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
-                                <color key="textColor" systemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buE-vz-BSU">
-                                <rect key="frame" x="571" y="93" width="175" height="30"/>
+                                <rect key="frame" x="571" y="96" width="175" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
                                 <state key="normal" title="www.ortoface.com">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -113,26 +88,59 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFK-sl-you">
-                                <rect key="frame" x="453" y="631" width="197" height="265"/>
+                                <rect key="frame" x="549" y="693" width="197" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
                             <pageControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ikC-6i-jj8">
-                                <rect key="frame" x="449" y="890" width="205" height="37"/>
+                                <rect key="frame" x="584" y="948" width="127" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.13253512980000001" green="0.1376928389" blue="0.2536136806" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FH-A4-oQx">
-                                <rect key="frame" x="29" y="686" width="306" height="253"/>
+                                <rect key="frame" x="9" y="802" width="503" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ortoface es una clínica dedicada a la Ortodoncia en exclusiva desde 1992 con especial énfasis en el tratamiento de los pacientes con malformaciones faciales (Fisura de labio y paladar, Labio leporino) esqueléticas o sindrómicas (Síndrome de Down, Síndrome de Turner, Síndrome de Crouzon, Sïndrome de Pierre Robin).                                              Trabajamos de forma multidisciplinar y coordinada con cirujanos especialistas, pediatras y odontólogos en forma de sesiones clínicas conjuntas, lo que pretende garantizar un resultado de alta calidad estética y funcional.                                 </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="14"/>
+                                <string key="text">En la Clínica Ortoface nos dedicamos desde 1992 a la Ortodoncia en exclusiva con especial énfasis en el tratamiento de los pacientes con malformaciones faciales (Fisura de labio y paladar, Labio leporino) esqueléticas y/o sindrómicas (Síndrome de Down, Microsomía Craneofacial, Síndrome de Crouzon, Síndrome de Pierre Robin).</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" secureTextEntry="YES"/>
                             </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="¿QUÉ ES ORTOFACE?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVb-hh-tsU">
-                                <rect key="frame" x="35" y="644" width="280" height="34"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Tu clínica de ortodoncia en exclusiva de confianza para un tratamiento dental efectivo y personalizado" translatesAutoresizingMaskIntoConstraints="NO" id="D61-2J-dLT">
+                                <rect key="frame" x="9" y="683" width="503" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.31951145975821804" blue="0.60121093749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" secureTextEntry="YES"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVb-hh-tsU">
+                                <rect key="frame" x="250" y="701" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="23"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="&quot;Calidad médica al servicios de tu satisfacción&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z71-Jt-t8q">
+                                <rect key="frame" x="123" y="651" width="523" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLe-Rt-CUd">
+                                <rect key="frame" x="14" y="795" width="354" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.31951145980000001" blue="0.60121093749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aen-zJ-mbM">
+                                <rect key="frame" x="372" y="793" width="35" height="5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.31951145980000001" blue="0.60121093749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Odontólogos Especialistas en Ortodoncia" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEU-6j-Dy7">
+                                <rect key="frame" x="463" y="72" width="277" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -168,11 +176,11 @@
                         <viewControllerLayoutGuide type="bottom" id="2YD-Nm-iI0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UO9-uy-GtA">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="590"/>
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGC-v1-7zZ">
-                                <rect key="frame" x="17" y="277" width="506" height="206"/>
+                                <rect key="frame" x="17" y="277" width="506" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">De acuerdo con lo establecido por la Ley Orgánica 15/1999, de  13 de Diciembre, de Protección de Datos de Carácter Personal, doy mi consentimiento para que mis datos presonales sean incluidos en un fichero automatizado y en soporte papel del que es titular ORTOFACE S.L., y puedan ser utilizados para la gestión de datos de los pacientes y de sus tutores o representanes legales, del historial clínico del paciente, de sus tratamientos, de las tareas administrativas derivadas de la presentación asistencial. para actividades de caráter social y, con una finalidad docente pudiendo utilizarse en presentaciones profesionales, así mismo declaro estar informado sobre los derechos de acceso, rectificación, cancelación y oposición que podré ejercitar en Pº DE LAS DELICIAS, 55 1º DCHA - 28045 - MADRID.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -1280,11 +1288,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Bew-cg-qj9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="43d-pS-UKu">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="590"/>
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syR-zB-OiK">
-                                <rect key="frame" x="17" y="277" width="506" height="211"/>
+                                <rect key="frame" x="17" y="277" width="506" height="221"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">De acuerdo con lo establecido por la Ley Orgánica 15/1999, de  13 de Diciembre, de Protección de Datos de Carácter Personal, doy mi consentimiento para que mis datos presonales sean incluidos en un fichero automatizado y en soporte papel del que es titular ORTOFACE S.L., y puedan ser utilizados para la gestión de datos de los pacientes y de sus tutores o representanes legales, del historial clínico del paciente, de sus tratamientos, de las tareas administrativas derivadas de la presentación asistencial. para actividades de caráter social y, con una finalidad docente pudiendo utilizarse en presentaciones profesionales, así mismo declaro estar informado sobre los derechos de acceso, rectificación, cancelación y oposición que podré ejercitar en Pº DE LAS DELICIAS, 55 1º DCHA - 28045 - MADRID.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2397,11 +2405,11 @@
                         <viewControllerLayoutGuide type="bottom" id="p1l-DY-8oN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7th-Lm-eww">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="590"/>
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HQ-dt-Xnd">
-                                <rect key="frame" x="17" y="277" width="506" height="203"/>
+                                <rect key="frame" x="17" y="277" width="506" height="213"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">De acuerdo con lo establecido por la Ley Orgánica 15/1999, de  13 de Diciembre, de Protección de Datos de Carácter Personal, doy mi consentimiento para que mis datos presonales sean incluidos en un fichero automatizado y en soporte papel del que es titular ORTOFACE S.L., y puedan ser utilizados para la gestión de datos de los pacientes y de sus tutores o representanes legales, del historial clínico del paciente, de sus tratamientos, de las tareas administrativas derivadas de la presentación asistencial. para actividades de caráter social y, con una finalidad docente pudiendo utilizarse en presentaciones profesionales, así mismo declaro estar informado sobre los derechos de acceso, rectificación, cancelación y oposición que podré ejercitar en Pº DE LAS DELICIAS, 55 1º DCHA - 28045 - MADRID.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3698,11 +3706,14 @@ clinica@ortoface.es</string>
         <image name="boton_siguiente.png" width="55" height="58"/>
         <image name="libros.png" width="40" height="31"/>
         <image name="logo.jpg" width="420" height="84"/>
+        <image name="logo.png" width="1158" height="499"/>
         <image name="ortoface.png" width="40" height="27"/>
         <image name="peques.png" width="40" height="31"/>
-        <image name="tit_banner.jpg" width="998" height="105"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
